@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "检查网页和书签中的链接，查看 HTTP 状态，并将报告导出为 CSV。"
+  },
+  "localeName": {
+    "message": "简体中文"
+  },
+  "reportTitle": {
+    "message": "链接检查"
+  },
+  "reportDocumentTitle": {
+    "message": "链接检查 · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "language": {
+    "message": "语言"
+  },
+  "theme": {
+    "message": "外观"
+  },
+  "system": {
+    "message": "跟随系统"
+  },
+  "light": {
+    "message": "浅色"
+  },
+  "dark": {
+    "message": "深色"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "allowLoopback": {
+    "message": "允许检查本地测试链接"
+  },
+  "allowLoopbackDetail": {
+    "message": "在浏览器中授权后，可检查 localhost、127.0.0.1 和 [::1]。日常检查请关闭此选项。"
+  },
+  "currentPage": {
+    "message": "当前页面"
+  },
+  "sourcePage": {
+    "message": "来源页面"
+  },
+  "scanCurrentPage": {
+    "message": "检查当前页面"
+  },
+  "scan": {
+    "message": "检查"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "openReport": {
+    "message": "打开最新报告"
+  },
+  "sourceUnavailable": {
+    "message": "切换到网站标签页以检查其中的链接。"
+  },
+  "captureError": {
+    "message": "无法读取此页面。请打开普通的 HTTP 或 HTTPS 页面并重试。"
+  },
+  "storageError": {
+    "message": "无法保存或加载报告。请刷新此标签页或开始新的检查。"
+  },
+  "settingsError": {
+    "message": "无法保存设置。"
+  },
+  "openError": {
+    "message": "无法打开报告标签页。请重试。"
+  },
+  "noReportTitle": {
+    "message": "暂无报告"
+  },
+  "noReportDetail": {
+    "message": "打开一个网站，然后在扩展菜单中选择“检查当前页面”。"
+  },
+  "reportUnavailable": {
+    "message": "此已保存的报告已无法使用。"
+  },
+  "loading": {
+    "message": "正在加载…"
+  },
+  "capturing": {
+    "message": "正在读取链接…"
+  },
+  "statusOverview": {
+    "message": "检查概览"
+  },
+  "totalLinks": {
+    "message": "链接总数"
+  },
+  "working": {
+    "message": "正常"
+  },
+  "missing": {
+    "message": "未找到"
+  },
+  "redirect": {
+    "message": "重定向"
+  },
+  "uncertain": {
+    "message": "不确定"
+  },
+  "notChecked": {
+    "message": "未检查"
+  },
+  "progress": {
+    "message": "检查进度"
+  },
+  "progressCount": {
+    "message": "已处理 $1 项，共 $2 项"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "可以开始检查"
+  },
+  "phaseRunning": {
+    "message": "正在检查链接"
+  },
+  "phaseFinished": {
+    "message": "检查完成"
+  },
+  "phaseStopped": {
+    "message": "检查已停止"
+  },
+  "phaseInterrupted": {
+    "message": "检查已中断"
+  },
+  "phaseDuplicate": {
+    "message": "另一个标签页正在检查此报告，完成后结果将更新。"
+  },
+  "listTitle": {
+    "message": "链接检查结果"
+  },
+  "filter": {
+    "message": "筛选结果"
+  },
+  "allLinks": {
+    "message": "所有链接"
+  },
+  "shownCount": {
+    "message": "已显示 $1 项，共 $2 项"
+  },
+  "urlColumn": {
+    "message": "链接网址"
+  },
+  "statusColumn": {
+    "message": "结果"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "详情"
+  },
+  "categoryColumn": {
+    "message": "类别"
+  },
+  "errorColumn": {
+    "message": "错误"
+  },
+  "redirectColumn": {
+    "message": "重定向网址"
+  },
+  "export": {
+    "message": "导出 CSV"
+  },
+  "emptyLinks": {
+    "message": "此页面中未找到 HTTP 或 HTTPS 链接。"
+  },
+  "emptyFilter": {
+    "message": "没有符合此筛选条件的链接。"
+  },
+  "permissionTitle": {
+    "message": "需要网站访问权限"
+  },
+  "permissionDetail": {
+    "message": "授权访问列表中的 $1 个主机，即可检查其链接。未经授权的链接将保持未检查状态。"
+  },
+  "permissionHosts": {
+    "message": "查看主机列表"
+  },
+  "grantAccess": {
+    "message": "允许访问"
+  },
+  "permissionDenied": {
+    "message": "访问已被拒绝。相关链接仍标记为未检查。"
+  },
+  "permissionError": {
+    "message": "浏览器无法请求访问权限。请检查扩展的网站访问设置。"
+  },
+  "captureLimited": {
+    "message": "此页面超出提取上限。报告中可能缺少部分链接。"
+  },
+  "scanLimited": {
+    "message": "去重后找到 $1 个链接。检查上限：$2。"
+  },
+  "reasonPermission": {
+    "message": "未授权访问此网站。"
+  },
+  "reasonPrivateHost": {
+    "message": "已跳过本地或私有地址。"
+  },
+  "reasonTimeout": {
+    "message": "请求超时。"
+  },
+  "reasonNetwork": {
+    "message": "浏览器无法访问链接。"
+  },
+  "reasonHttpError": {
+    "message": "意外的 HTTP 响应（$1）。"
+  },
+  "reasonRedirectHidden": {
+    "message": "浏览器未提供重定向目标。"
+  },
+  "reasonStopped": {
+    "message": "检查已停止。"
+  },
+  "reasonInterrupted": {
+    "message": "检查标签页已关闭或刷新。"
+  },
+  "reasonPending": {
+    "message": "等待检查。"
+  },
+  "interruptedHint": {
+    "message": "可查看保存的结果。选择“检查”即可开始新的检查。"
+  },
+  "previousPage": {
+    "message": "上一页结果"
+  },
+  "nextPage": {
+    "message": "下一页结果"
+  },
+  "resultPages": {
+    "message": "第 $1 页，共 $2 页"
+  },
+  "redirectTo": {
+    "message": "重定向到"
+  },
+  "requestingAccess": {
+    "message": "正在等待浏览器…"
+  },
+  "noValue": {
+    "message": "不可用"
+  },
+  "http401": {
+    "message": "访问此页面需要登录。"
+  },
+  "http403": {
+    "message": "网站拒绝了访问。"
+  },
+  "http404": {
+    "message": "未找到页面。"
+  },
+  "http410": {
+    "message": "页面已被移除。"
+  },
+  "http429": {
+    "message": "网站正在限制请求频率。"
+  },
+  "httpServerError": {
+    "message": "服务器返回错误（$1）。"
+  },
+  "scanBookmarks": {
+    "message": "检查书签"
+  },
+  "bookmarksTitle": {
+    "message": "书签"
+  },
+  "bookmarksDenied": {
+    "message": "书签访问请求已被拒绝。"
+  },
+  "bookmarksError": {
+    "message": "无法读取书签。"
+  },
+  "retrySelected": {
+    "message": "重新检查选中项"
+  },
+  "selectLink": {
+    "message": "选择要重新检查的链接：$1"
+  },
+  "selectVisible": {
+    "message": "选择本页可重新检查的链接"
+  },
+  "sourceColumn": {
+    "message": "来源"
+  },
+  "locateLink": {
+    "message": "在来源页面中显示"
+  },
+  "locateUnavailable": {
+    "message": "无法突出显示原始链接。请重新打开来源页面并再次检查。"
+  },
+  "networkDisclosure": {
+    "message": "检查链接会向对应的网站发送请求。该网站可以看到你的 IP 地址和其他网络信息。"
+  },
+  "reasonUnsafeUrl": {
+    "message": "此地址可能含有敏感信息，已跳过。"
+  },
+  "reasonDns": {
+    "message": "无法确认主机名是否为公网地址。"
+  },
+  "clearReports": {
+    "message": "清除已保存的报告"
+  },
+  "reportsCleared": {
+    "message": "已清除保存的报告。"
+  },
+  "clearReportsConfirm": {
+    "message": "是否清除所有已保存的报告及结果？"
+  },
+  "http400": {
+    "message": "网站无法识别该请求。"
+  },
+  "http405": {
+    "message": "网站不允许使用此请求方法。"
+  },
+  "http408": {
+    "message": "服务器在等待请求时超时。"
+  },
+  "http451": {
+    "message": "由于法律原因，此页面无法访问。"
+  },
+  "http502": {
+    "message": "网关从另一个服务器收到了无效响应。"
+  },
+  "http503": {
+    "message": "服务暂时不可用。"
+  },
+  "http504": {
+    "message": "网关未及时收到响应。"
+  },
+  "consentTitle": {
+    "message": "允许发送链接检查请求"
+  },
+  "consentDetail": {
+    "message": "Firefox 会征求同意，然后才能向对应网站发送网页链接或书签网址。"
+  }
+}

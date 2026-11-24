@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "Check page links and bookmarks, review HTTP statuses, and export reports as CSV."
+  },
+  "localeName": {
+    "message": "English"
+  },
+  "reportTitle": {
+    "message": "Link Inspection"
+  },
+  "reportDocumentTitle": {
+    "message": "Link Inspection · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "language": {
+    "message": "Language"
+  },
+  "theme": {
+    "message": "Appearance"
+  },
+  "system": {
+    "message": "System"
+  },
+  "light": {
+    "message": "Light"
+  },
+  "dark": {
+    "message": "Dark"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "allowLoopback": {
+    "message": "Allow local test links"
+  },
+  "allowLoopbackDetail": {
+    "message": "Lets you check localhost, 127.0.0.1 and [::1] after granting browser access. Keep this off for everyday scans."
+  },
+  "currentPage": {
+    "message": "Current page"
+  },
+  "sourcePage": {
+    "message": "Source page"
+  },
+  "scanCurrentPage": {
+    "message": "Scan current page"
+  },
+  "scan": {
+    "message": "Scan"
+  },
+  "stop": {
+    "message": "Stop"
+  },
+  "openReport": {
+    "message": "Open latest report"
+  },
+  "sourceUnavailable": {
+    "message": "Switch to a website tab to scan its links."
+  },
+  "captureError": {
+    "message": "This page could not be read. Open a regular HTTP or HTTPS page and try again."
+  },
+  "storageError": {
+    "message": "The report could not be saved or loaded. Reload this tab or start a new scan."
+  },
+  "settingsError": {
+    "message": "Your settings could not be saved."
+  },
+  "openError": {
+    "message": "The report tab could not be opened. Try again."
+  },
+  "noReportTitle": {
+    "message": "No report yet"
+  },
+  "noReportDetail": {
+    "message": "Open a website and choose Scan current page from the extension menu."
+  },
+  "reportUnavailable": {
+    "message": "This saved report is no longer available."
+  },
+  "loading": {
+    "message": "Loading…"
+  },
+  "capturing": {
+    "message": "Reading links…"
+  },
+  "statusOverview": {
+    "message": "Scan summary"
+  },
+  "totalLinks": {
+    "message": "Total links"
+  },
+  "working": {
+    "message": "Working"
+  },
+  "missing": {
+    "message": "Missing"
+  },
+  "redirect": {
+    "message": "Redirect"
+  },
+  "uncertain": {
+    "message": "Uncertain"
+  },
+  "notChecked": {
+    "message": "Not checked"
+  },
+  "progress": {
+    "message": "Scan progress"
+  },
+  "progressCount": {
+    "message": "$1 of $2 processed"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "Ready to scan"
+  },
+  "phaseRunning": {
+    "message": "Scanning links"
+  },
+  "phaseFinished": {
+    "message": "Scan complete"
+  },
+  "phaseStopped": {
+    "message": "Scan stopped"
+  },
+  "phaseInterrupted": {
+    "message": "Scan interrupted"
+  },
+  "phaseDuplicate": {
+    "message": "This report is running in another tab. Results will update when it finishes."
+  },
+  "listTitle": {
+    "message": "Link results"
+  },
+  "filter": {
+    "message": "Filter results"
+  },
+  "allLinks": {
+    "message": "All links"
+  },
+  "shownCount": {
+    "message": "$1 of $2 shown"
+  },
+  "urlColumn": {
+    "message": "Link URL"
+  },
+  "statusColumn": {
+    "message": "Result"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "Details"
+  },
+  "categoryColumn": {
+    "message": "Category"
+  },
+  "errorColumn": {
+    "message": "Error"
+  },
+  "redirectColumn": {
+    "message": "Redirect URL"
+  },
+  "export": {
+    "message": "Export CSV"
+  },
+  "emptyLinks": {
+    "message": "No HTTP or HTTPS links were found on this page."
+  },
+  "emptyFilter": {
+    "message": "No links match this filter."
+  },
+  "permissionTitle": {
+    "message": "Site access needed"
+  },
+  "permissionDetail": {
+    "message": "Allow access to the listed hosts ($1) to check their links. Links without access stay unchecked."
+  },
+  "permissionHosts": {
+    "message": "View host list"
+  },
+  "grantAccess": {
+    "message": "Allow access"
+  },
+  "permissionDenied": {
+    "message": "Access was declined. The affected links are still marked as not checked."
+  },
+  "permissionError": {
+    "message": "The browser could not request access. Check the extension’s site access settings."
+  },
+  "captureLimited": {
+    "message": "The page exceeded the extraction limit. Some links may be absent from this report."
+  },
+  "scanLimited": {
+    "message": "Unique links found: $1. Scan limit: $2."
+  },
+  "reasonPermission": {
+    "message": "Site access was not granted."
+  },
+  "reasonPrivateHost": {
+    "message": "Local or private address skipped."
+  },
+  "reasonTimeout": {
+    "message": "The request timed out."
+  },
+  "reasonNetwork": {
+    "message": "The browser could not reach the link."
+  },
+  "reasonHttpError": {
+    "message": "Unexpected HTTP response ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "The browser did not expose the redirect destination."
+  },
+  "reasonStopped": {
+    "message": "The scan was stopped."
+  },
+  "reasonInterrupted": {
+    "message": "The scan tab was closed or reloaded."
+  },
+  "reasonPending": {
+    "message": "Waiting to be checked."
+  },
+  "interruptedHint": {
+    "message": "Saved results are available. Select Scan to start a new check."
+  },
+  "previousPage": {
+    "message": "Previous results page"
+  },
+  "nextPage": {
+    "message": "Next results page"
+  },
+  "resultPages": {
+    "message": "Page $1 of $2"
+  },
+  "redirectTo": {
+    "message": "Redirects to"
+  },
+  "requestingAccess": {
+    "message": "Waiting for browser…"
+  },
+  "noValue": {
+    "message": "Unavailable"
+  },
+  "http401": {
+    "message": "This page requires sign-in."
+  },
+  "http403": {
+    "message": "The site refused access."
+  },
+  "http404": {
+    "message": "The page was not found."
+  },
+  "http410": {
+    "message": "The page has been removed."
+  },
+  "http429": {
+    "message": "The site is rate limiting requests."
+  },
+  "httpServerError": {
+    "message": "The server returned an error ($1)."
+  },
+  "scanBookmarks": {
+    "message": "Scan bookmarks"
+  },
+  "bookmarksTitle": {
+    "message": "Bookmarks"
+  },
+  "bookmarksDenied": {
+    "message": "Bookmark access was declined."
+  },
+  "bookmarksError": {
+    "message": "Could not read bookmarks."
+  },
+  "retrySelected": {
+    "message": "Retry selected"
+  },
+  "selectLink": {
+    "message": "Select link for retry: $1"
+  },
+  "selectVisible": {
+    "message": "Select eligible links on this page"
+  },
+  "sourceColumn": {
+    "message": "Source"
+  },
+  "locateLink": {
+    "message": "Show on source page"
+  },
+  "locateUnavailable": {
+    "message": "The original link could not be highlighted. Reopen the source page and scan it again."
+  },
+  "networkDisclosure": {
+    "message": "Checking a link sends a request to its site. The site can see your IP address and other network information."
+  },
+  "reasonUnsafeUrl": {
+    "message": "Skipped because the address may contain sensitive information."
+  },
+  "reasonDns": {
+    "message": "The hostname could not be verified as public."
+  },
+  "clearReports": {
+    "message": "Clear saved reports"
+  },
+  "reportsCleared": {
+    "message": "Saved reports cleared."
+  },
+  "clearReportsConfirm": {
+    "message": "Clear all saved reports and their results?"
+  },
+  "http400": {
+    "message": "The site could not understand the request."
+  },
+  "http405": {
+    "message": "The site does not allow this request method."
+  },
+  "http408": {
+    "message": "The server timed out while waiting for the request."
+  },
+  "http451": {
+    "message": "The page is unavailable for legal reasons."
+  },
+  "http502": {
+    "message": "A gateway received an invalid response from another server."
+  },
+  "http503": {
+    "message": "The service is temporarily unavailable."
+  },
+  "http504": {
+    "message": "A gateway did not receive a response in time."
+  },
+  "consentTitle": {
+    "message": "Allow link requests"
+  },
+  "consentDetail": {
+    "message": "Firefox asks for consent to send page links or bookmark URLs to their respective sites."
+  }
+}

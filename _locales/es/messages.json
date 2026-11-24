@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "Comprueba enlaces de páginas y marcadores, consulta los estados HTTP y exporta informes CSV."
+  },
+  "localeName": {
+    "message": "Español"
+  },
+  "reportTitle": {
+    "message": "Comprobación de enlaces"
+  },
+  "reportDocumentTitle": {
+    "message": "Comprobación de enlaces · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "Configuración"
+  },
+  "language": {
+    "message": "Idioma"
+  },
+  "theme": {
+    "message": "Apariencia"
+  },
+  "system": {
+    "message": "Sistema"
+  },
+  "light": {
+    "message": "Claro"
+  },
+  "dark": {
+    "message": "Oscuro"
+  },
+  "close": {
+    "message": "Cerrar"
+  },
+  "allowLoopback": {
+    "message": "Permitir enlaces de prueba locales"
+  },
+  "allowLoopbackDetail": {
+    "message": "Permite comprobar localhost, 127.0.0.1 y [::1] tras conceder acceso. Déjalo desactivado para las comprobaciones diarias."
+  },
+  "currentPage": {
+    "message": "Página actual"
+  },
+  "sourcePage": {
+    "message": "Página de origen"
+  },
+  "scanCurrentPage": {
+    "message": "Comprobar la página actual"
+  },
+  "scan": {
+    "message": "Comprobar"
+  },
+  "stop": {
+    "message": "Detener"
+  },
+  "openReport": {
+    "message": "Abrir el último informe"
+  },
+  "sourceUnavailable": {
+    "message": "Abre la pestaña de un sitio web para comprobar sus enlaces."
+  },
+  "captureError": {
+    "message": "No se pudo leer esta página. Abre una página HTTP o HTTPS normal y vuelve a intentarlo."
+  },
+  "storageError": {
+    "message": "No se pudo guardar o cargar el informe. Recarga esta pestaña o inicia otra comprobación."
+  },
+  "settingsError": {
+    "message": "No se pudo guardar la configuración."
+  },
+  "openError": {
+    "message": "No se pudo abrir la pestaña del informe. Vuelve a intentarlo."
+  },
+  "noReportTitle": {
+    "message": "Aún no hay informes"
+  },
+  "noReportDetail": {
+    "message": "Abre un sitio web y selecciona Comprobar la página actual en el menú de la extensión."
+  },
+  "reportUnavailable": {
+    "message": "Este informe guardado ya no está disponible."
+  },
+  "loading": {
+    "message": "Cargando…"
+  },
+  "capturing": {
+    "message": "Leyendo enlaces…"
+  },
+  "statusOverview": {
+    "message": "Resumen de la comprobación"
+  },
+  "totalLinks": {
+    "message": "Total de enlaces"
+  },
+  "working": {
+    "message": "Operativo"
+  },
+  "missing": {
+    "message": "No encontrado"
+  },
+  "redirect": {
+    "message": "Redirección"
+  },
+  "uncertain": {
+    "message": "Incierto"
+  },
+  "notChecked": {
+    "message": "Sin comprobar"
+  },
+  "progress": {
+    "message": "Progreso de la comprobación"
+  },
+  "progressCount": {
+    "message": "$1 de $2 procesados"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "Listo para comprobar"
+  },
+  "phaseRunning": {
+    "message": "Comprobando enlaces"
+  },
+  "phaseFinished": {
+    "message": "Comprobación completada"
+  },
+  "phaseStopped": {
+    "message": "Comprobación detenida"
+  },
+  "phaseInterrupted": {
+    "message": "Comprobación interrumpida"
+  },
+  "phaseDuplicate": {
+    "message": "Esta comprobación se ejecuta en otra pestaña. Los resultados se actualizarán al terminar."
+  },
+  "listTitle": {
+    "message": "Resultados de enlaces"
+  },
+  "filter": {
+    "message": "Filtrar resultados"
+  },
+  "allLinks": {
+    "message": "Todos los enlaces"
+  },
+  "shownCount": {
+    "message": "Se muestran $1 de $2"
+  },
+  "urlColumn": {
+    "message": "URL del enlace"
+  },
+  "statusColumn": {
+    "message": "Resultado"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "Detalles"
+  },
+  "categoryColumn": {
+    "message": "Categoría"
+  },
+  "errorColumn": {
+    "message": "Error"
+  },
+  "redirectColumn": {
+    "message": "URL de redirección"
+  },
+  "export": {
+    "message": "Exportar CSV"
+  },
+  "emptyLinks": {
+    "message": "No se encontraron enlaces HTTP o HTTPS en esta página."
+  },
+  "emptyFilter": {
+    "message": "Ningún enlace coincide con este filtro."
+  },
+  "permissionTitle": {
+    "message": "Se necesita acceso a los sitios"
+  },
+  "permissionDetail": {
+    "message": "Permite el acceso a los sitios indicados ($1) para comprobar sus enlaces. Sin acceso, quedan sin comprobar."
+  },
+  "permissionHosts": {
+    "message": "Ver la lista de sitios"
+  },
+  "grantAccess": {
+    "message": "Permitir acceso"
+  },
+  "permissionDenied": {
+    "message": "Se rechazó el acceso. Los enlaces afectados siguen sin comprobar."
+  },
+  "permissionError": {
+    "message": "El navegador no pudo solicitar acceso. Revisa la configuración de acceso a sitios de la extensión."
+  },
+  "captureLimited": {
+    "message": "La página superó el límite de extracción. Es posible que falten enlaces en el informe."
+  },
+  "scanLimited": {
+    "message": "Enlaces únicos encontrados: $1. Límite de comprobación: $2."
+  },
+  "reasonPermission": {
+    "message": "No se concedió acceso al sitio."
+  },
+  "reasonPrivateHost": {
+    "message": "Se omitió la dirección local o privada."
+  },
+  "reasonTimeout": {
+    "message": "La solicitud agotó el tiempo de espera."
+  },
+  "reasonNetwork": {
+    "message": "El navegador no pudo conectarse con el enlace."
+  },
+  "reasonHttpError": {
+    "message": "Respuesta HTTP inesperada ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "El navegador no mostró el destino de la redirección."
+  },
+  "reasonStopped": {
+    "message": "Se detuvo la comprobación."
+  },
+  "reasonInterrupted": {
+    "message": "La pestaña de comprobación se cerró o se recargó."
+  },
+  "reasonPending": {
+    "message": "Pendiente de comprobación."
+  },
+  "interruptedHint": {
+    "message": "Los resultados guardados están disponibles. Selecciona Comprobar para iniciar una nueva comprobación."
+  },
+  "previousPage": {
+    "message": "Página anterior de resultados"
+  },
+  "nextPage": {
+    "message": "Página siguiente de resultados"
+  },
+  "resultPages": {
+    "message": "Página $1 de $2"
+  },
+  "redirectTo": {
+    "message": "Redirige a"
+  },
+  "requestingAccess": {
+    "message": "Esperando al navegador…"
+  },
+  "noValue": {
+    "message": "No disponible"
+  },
+  "http401": {
+    "message": "Esta página requiere iniciar sesión."
+  },
+  "http403": {
+    "message": "El sitio rechazó el acceso."
+  },
+  "http404": {
+    "message": "No se encontró la página."
+  },
+  "http410": {
+    "message": "La página se eliminó."
+  },
+  "http429": {
+    "message": "El sitio está limitando la frecuencia de las solicitudes."
+  },
+  "httpServerError": {
+    "message": "El servidor devolvió un error ($1)."
+  },
+  "scanBookmarks": {
+    "message": "Comprobar marcadores"
+  },
+  "bookmarksTitle": {
+    "message": "Marcadores"
+  },
+  "bookmarksDenied": {
+    "message": "Se rechazó el acceso a los marcadores."
+  },
+  "bookmarksError": {
+    "message": "No se pudieron leer los marcadores."
+  },
+  "retrySelected": {
+    "message": "Volver a comprobar la selección"
+  },
+  "selectLink": {
+    "message": "Seleccionar enlace para volver a comprobar: $1"
+  },
+  "selectVisible": {
+    "message": "Seleccionar los enlaces de esta página que se pueden volver a comprobar"
+  },
+  "sourceColumn": {
+    "message": "Origen"
+  },
+  "locateLink": {
+    "message": "Mostrar en la página de origen"
+  },
+  "locateUnavailable": {
+    "message": "No se pudo resaltar el enlace original. Vuelve a abrir la página de origen y compruébala otra vez."
+  },
+  "networkDisclosure": {
+    "message": "Al comprobar un enlace se envía una solicitud al sitio. El sitio puede ver tu dirección IP y otros datos de red."
+  },
+  "reasonUnsafeUrl": {
+    "message": "Se omitió la dirección porque podría contener información confidencial."
+  },
+  "reasonDns": {
+    "message": "No se pudo confirmar que el nombre de host sea público."
+  },
+  "clearReports": {
+    "message": "Borrar informes guardados"
+  },
+  "reportsCleared": {
+    "message": "Se borraron los informes guardados."
+  },
+  "clearReportsConfirm": {
+    "message": "¿Borrar todos los informes guardados y sus resultados?"
+  },
+  "http400": {
+    "message": "El sitio no pudo interpretar la solicitud."
+  },
+  "http405": {
+    "message": "El sitio no permite este método de solicitud."
+  },
+  "http408": {
+    "message": "El servidor agotó el tiempo de espera al recibir la solicitud."
+  },
+  "http451": {
+    "message": "La página no está disponible por motivos legales."
+  },
+  "http502": {
+    "message": "Una puerta de enlace recibió una respuesta no válida de otro servidor."
+  },
+  "http503": {
+    "message": "El servicio no está disponible temporalmente."
+  },
+  "http504": {
+    "message": "Una puerta de enlace no recibió una respuesta a tiempo."
+  },
+  "consentTitle": {
+    "message": "Permitir solicitudes de comprobación"
+  },
+  "consentDetail": {
+    "message": "Firefox pide tu consentimiento para enviar los enlaces de las páginas o las URL de los marcadores a sus sitios correspondientes."
+  }
+}

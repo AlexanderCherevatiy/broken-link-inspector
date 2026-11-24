@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "Periksa tautan halaman dan markah, lihat status HTTP, lalu ekspor laporan sebagai CSV."
+  },
+  "localeName": {
+    "message": "Bahasa Indonesia"
+  },
+  "reportTitle": {
+    "message": "Pemeriksaan Tautan"
+  },
+  "reportDocumentTitle": {
+    "message": "Pemeriksaan Tautan · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "Pengaturan"
+  },
+  "language": {
+    "message": "Bahasa"
+  },
+  "theme": {
+    "message": "Tampilan"
+  },
+  "system": {
+    "message": "Sistem"
+  },
+  "light": {
+    "message": "Terang"
+  },
+  "dark": {
+    "message": "Gelap"
+  },
+  "close": {
+    "message": "Tutup"
+  },
+  "allowLoopback": {
+    "message": "Izinkan tautan uji lokal"
+  },
+  "allowLoopbackDetail": {
+    "message": "Memungkinkan pemeriksaan localhost, 127.0.0.1, dan [::1] setelah izin diberikan di peramban. Biarkan nonaktif untuk pemeriksaan sehari-hari."
+  },
+  "currentPage": {
+    "message": "Halaman saat ini"
+  },
+  "sourcePage": {
+    "message": "Halaman sumber"
+  },
+  "scanCurrentPage": {
+    "message": "Periksa halaman saat ini"
+  },
+  "scan": {
+    "message": "Periksa"
+  },
+  "stop": {
+    "message": "Hentikan"
+  },
+  "openReport": {
+    "message": "Buka laporan terbaru"
+  },
+  "sourceUnavailable": {
+    "message": "Beralih ke tab situs untuk memeriksa tautannya."
+  },
+  "captureError": {
+    "message": "Halaman ini tidak dapat dibaca. Buka halaman HTTP atau HTTPS biasa dan coba lagi."
+  },
+  "storageError": {
+    "message": "Laporan tidak dapat disimpan atau dimuat. Muat ulang tab atau mulai pemeriksaan baru."
+  },
+  "settingsError": {
+    "message": "Pengaturan tidak dapat disimpan."
+  },
+  "openError": {
+    "message": "Tab laporan tidak dapat dibuka. Coba lagi."
+  },
+  "noReportTitle": {
+    "message": "Belum ada laporan"
+  },
+  "noReportDetail": {
+    "message": "Buka situs dan pilih Periksa halaman saat ini pada menu ekstensi."
+  },
+  "reportUnavailable": {
+    "message": "Laporan tersimpan ini tidak lagi tersedia."
+  },
+  "loading": {
+    "message": "Memuat…"
+  },
+  "capturing": {
+    "message": "Membaca tautan…"
+  },
+  "statusOverview": {
+    "message": "Ringkasan pemeriksaan"
+  },
+  "totalLinks": {
+    "message": "Jumlah tautan"
+  },
+  "working": {
+    "message": "Berfungsi"
+  },
+  "missing": {
+    "message": "Tidak ditemukan"
+  },
+  "redirect": {
+    "message": "Pengalihan"
+  },
+  "uncertain": {
+    "message": "Belum pasti"
+  },
+  "notChecked": {
+    "message": "Tidak diperiksa"
+  },
+  "progress": {
+    "message": "Progres pemeriksaan"
+  },
+  "progressCount": {
+    "message": "$1 dari $2 diproses"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "Siap diperiksa"
+  },
+  "phaseRunning": {
+    "message": "Memeriksa tautan"
+  },
+  "phaseFinished": {
+    "message": "Pemeriksaan selesai"
+  },
+  "phaseStopped": {
+    "message": "Pemeriksaan dihentikan"
+  },
+  "phaseInterrupted": {
+    "message": "Pemeriksaan terputus"
+  },
+  "phaseDuplicate": {
+    "message": "Laporan ini sedang diproses di tab lain. Hasil akan diperbarui setelah selesai."
+  },
+  "listTitle": {
+    "message": "Hasil pemeriksaan"
+  },
+  "filter": {
+    "message": "Filter hasil"
+  },
+  "allLinks": {
+    "message": "Semua tautan"
+  },
+  "shownCount": {
+    "message": "Menampilkan $1 dari $2"
+  },
+  "urlColumn": {
+    "message": "URL tautan"
+  },
+  "statusColumn": {
+    "message": "Hasil"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "Detail"
+  },
+  "categoryColumn": {
+    "message": "Kategori"
+  },
+  "errorColumn": {
+    "message": "Kesalahan"
+  },
+  "redirectColumn": {
+    "message": "URL pengalihan"
+  },
+  "export": {
+    "message": "Ekspor CSV"
+  },
+  "emptyLinks": {
+    "message": "Tidak ditemukan tautan HTTP atau HTTPS di halaman ini."
+  },
+  "emptyFilter": {
+    "message": "Tidak ada tautan yang sesuai filter ini."
+  },
+  "permissionTitle": {
+    "message": "Perlu akses ke situs"
+  },
+  "permissionDetail": {
+    "message": "Izinkan akses ke host dalam daftar ($1) untuk memeriksa tautannya. Tanpa akses, tautan tidak diperiksa."
+  },
+  "permissionHosts": {
+    "message": "Lihat daftar host"
+  },
+  "grantAccess": {
+    "message": "Izinkan akses"
+  },
+  "permissionDenied": {
+    "message": "Akses ditolak. Tautan terkait tetap ditandai belum diperiksa."
+  },
+  "permissionError": {
+    "message": "Peramban tidak dapat meminta akses. Periksa pengaturan akses situs untuk ekstensi."
+  },
+  "captureLimited": {
+    "message": "Halaman melampaui batas pengambilan tautan. Beberapa tautan mungkin tidak tercantum dalam laporan."
+  },
+  "scanLimited": {
+    "message": "Tautan unik ditemukan: $1. Batas pemeriksaan: $2."
+  },
+  "reasonPermission": {
+    "message": "Akses ke situs tidak diberikan."
+  },
+  "reasonPrivateHost": {
+    "message": "Alamat lokal atau privat dilewati."
+  },
+  "reasonTimeout": {
+    "message": "Waktu permintaan habis."
+  },
+  "reasonNetwork": {
+    "message": "Peramban tidak dapat menjangkau tautan."
+  },
+  "reasonHttpError": {
+    "message": "Respons HTTP tak terduga ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "Peramban tidak menampilkan tujuan pengalihan."
+  },
+  "reasonStopped": {
+    "message": "Pemeriksaan dihentikan."
+  },
+  "reasonInterrupted": {
+    "message": "Tab pemeriksaan ditutup atau dimuat ulang."
+  },
+  "reasonPending": {
+    "message": "Menunggu pemeriksaan."
+  },
+  "interruptedHint": {
+    "message": "Hasil tersimpan tersedia. Pilih Periksa untuk memulai pemeriksaan baru."
+  },
+  "previousPage": {
+    "message": "Halaman hasil sebelumnya"
+  },
+  "nextPage": {
+    "message": "Halaman hasil berikutnya"
+  },
+  "resultPages": {
+    "message": "Halaman $1 dari $2"
+  },
+  "redirectTo": {
+    "message": "Dialihkan ke"
+  },
+  "requestingAccess": {
+    "message": "Menunggu peramban…"
+  },
+  "noValue": {
+    "message": "Tidak tersedia"
+  },
+  "http401": {
+    "message": "Halaman ini mengharuskan Anda masuk."
+  },
+  "http403": {
+    "message": "Situs menolak akses."
+  },
+  "http404": {
+    "message": "Halaman tidak ditemukan."
+  },
+  "http410": {
+    "message": "Halaman telah dihapus."
+  },
+  "http429": {
+    "message": "Situs membatasi frekuensi permintaan."
+  },
+  "httpServerError": {
+    "message": "Server mengembalikan kesalahan ($1)."
+  },
+  "scanBookmarks": {
+    "message": "Periksa markah"
+  },
+  "bookmarksTitle": {
+    "message": "Markah"
+  },
+  "bookmarksDenied": {
+    "message": "Akses ke markah ditolak."
+  },
+  "bookmarksError": {
+    "message": "Markah tidak dapat dibaca."
+  },
+  "retrySelected": {
+    "message": "Periksa ulang pilihan"
+  },
+  "selectLink": {
+    "message": "Pilih tautan untuk diperiksa ulang: $1"
+  },
+  "selectVisible": {
+    "message": "Pilih tautan di halaman ini yang dapat diperiksa ulang"
+  },
+  "sourceColumn": {
+    "message": "Sumber"
+  },
+  "locateLink": {
+    "message": "Tampilkan di halaman sumber"
+  },
+  "locateUnavailable": {
+    "message": "Tautan asli tidak dapat disorot. Buka kembali halaman sumber dan periksa lagi."
+  },
+  "networkDisclosure": {
+    "message": "Pemeriksaan tautan mengirim permintaan ke situs tujuan. Situs itu dapat melihat alamat IP dan informasi jaringan lainnya."
+  },
+  "reasonUnsafeUrl": {
+    "message": "Alamat dilewati karena mungkin berisi informasi sensitif."
+  },
+  "reasonDns": {
+    "message": "Tidak dapat memastikan bahwa nama host bersifat publik."
+  },
+  "clearReports": {
+    "message": "Hapus laporan tersimpan"
+  },
+  "reportsCleared": {
+    "message": "Laporan tersimpan sudah dihapus."
+  },
+  "clearReportsConfirm": {
+    "message": "Hapus semua laporan tersimpan dan hasilnya?"
+  },
+  "http400": {
+    "message": "Situs tidak dapat memahami permintaan."
+  },
+  "http405": {
+    "message": "Situs tidak mengizinkan metode permintaan ini."
+  },
+  "http408": {
+    "message": "Server kehabisan waktu saat menunggu permintaan."
+  },
+  "http451": {
+    "message": "Halaman tidak tersedia karena alasan hukum."
+  },
+  "http502": {
+    "message": "Gateway menerima respons yang tidak valid dari server lain."
+  },
+  "http503": {
+    "message": "Layanan sementara tidak tersedia."
+  },
+  "http504": {
+    "message": "Gateway tidak menerima respons tepat waktu."
+  },
+  "consentTitle": {
+    "message": "Izinkan permintaan pemeriksaan tautan"
+  },
+  "consentDetail": {
+    "message": "Firefox meminta persetujuan untuk mengirim tautan halaman atau URL markah ke situs terkait."
+  }
+}

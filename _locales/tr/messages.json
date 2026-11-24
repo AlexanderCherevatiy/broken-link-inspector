@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "Sayfa bağlantılarını ve yer imlerini denetleyin, HTTP durumlarını görün ve raporları CSV olarak dışa aktarın."
+  },
+  "localeName": {
+    "message": "Türkçe"
+  },
+  "reportTitle": {
+    "message": "Bağlantı Denetimi"
+  },
+  "reportDocumentTitle": {
+    "message": "Bağlantı Denetimi · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "Ayarlar"
+  },
+  "language": {
+    "message": "Dil"
+  },
+  "theme": {
+    "message": "Görünüm"
+  },
+  "system": {
+    "message": "Sistem"
+  },
+  "light": {
+    "message": "Açık"
+  },
+  "dark": {
+    "message": "Koyu"
+  },
+  "close": {
+    "message": "Kapat"
+  },
+  "allowLoopback": {
+    "message": "Yerel test bağlantılarına izin ver"
+  },
+  "allowLoopbackDetail": {
+    "message": "Tarayıcı erişimi verildikten sonra localhost, 127.0.0.1 ve [::1] denetlenebilir. Günlük denetimlerde kapalı tutun."
+  },
+  "currentPage": {
+    "message": "Geçerli sayfa"
+  },
+  "sourcePage": {
+    "message": "Kaynak sayfa"
+  },
+  "scanCurrentPage": {
+    "message": "Geçerli sayfayı denetle"
+  },
+  "scan": {
+    "message": "Denetle"
+  },
+  "stop": {
+    "message": "Durdur"
+  },
+  "openReport": {
+    "message": "Son raporu aç"
+  },
+  "sourceUnavailable": {
+    "message": "Bağlantıları denetlemek için bir web sitesi sekmesine geçin."
+  },
+  "captureError": {
+    "message": "Bu sayfa okunamadı. Normal bir HTTP veya HTTPS sayfası açıp yeniden deneyin."
+  },
+  "storageError": {
+    "message": "Rapor kaydedilemedi veya yüklenemedi. Sekmeyi yenileyin veya yeni bir denetim başlatın."
+  },
+  "settingsError": {
+    "message": "Ayarlarınız kaydedilemedi."
+  },
+  "openError": {
+    "message": "Rapor sekmesi açılamadı. Yeniden deneyin."
+  },
+  "noReportTitle": {
+    "message": "Henüz rapor yok"
+  },
+  "noReportDetail": {
+    "message": "Bir site açın ve uzantı menüsünden Geçerli sayfayı denetle’yi seçin."
+  },
+  "reportUnavailable": {
+    "message": "Kaydedilen rapor artık kullanılamıyor."
+  },
+  "loading": {
+    "message": "Yükleniyor…"
+  },
+  "capturing": {
+    "message": "Bağlantılar okunuyor…"
+  },
+  "statusOverview": {
+    "message": "Denetim özeti"
+  },
+  "totalLinks": {
+    "message": "Toplam bağlantı"
+  },
+  "working": {
+    "message": "Çalışıyor"
+  },
+  "missing": {
+    "message": "Bulunamadı"
+  },
+  "redirect": {
+    "message": "Yönlendirme"
+  },
+  "uncertain": {
+    "message": "Belirsiz"
+  },
+  "notChecked": {
+    "message": "Denetlenmedi"
+  },
+  "progress": {
+    "message": "Denetim ilerlemesi"
+  },
+  "progressCount": {
+    "message": "$2 bağlantıdan $1 tanesi işlendi"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "Denetime hazır"
+  },
+  "phaseRunning": {
+    "message": "Bağlantılar denetleniyor"
+  },
+  "phaseFinished": {
+    "message": "Denetim tamamlandı"
+  },
+  "phaseStopped": {
+    "message": "Denetim durduruldu"
+  },
+  "phaseInterrupted": {
+    "message": "Denetim kesintiye uğradı"
+  },
+  "phaseDuplicate": {
+    "message": "Bu rapor başka bir sekmede işleniyor. Sonuçlar işlem bitince güncellenecek."
+  },
+  "listTitle": {
+    "message": "Bağlantı sonuçları"
+  },
+  "filter": {
+    "message": "Sonuçları filtrele"
+  },
+  "allLinks": {
+    "message": "Tüm bağlantılar"
+  },
+  "shownCount": {
+    "message": "$2 sonuçtan $1 tanesi gösteriliyor"
+  },
+  "urlColumn": {
+    "message": "Bağlantı URL’si"
+  },
+  "statusColumn": {
+    "message": "Sonuç"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "Ayrıntılar"
+  },
+  "categoryColumn": {
+    "message": "Kategori"
+  },
+  "errorColumn": {
+    "message": "Hata"
+  },
+  "redirectColumn": {
+    "message": "Yönlendirme URL’si"
+  },
+  "export": {
+    "message": "CSV dışa aktar"
+  },
+  "emptyLinks": {
+    "message": "Bu sayfada HTTP veya HTTPS bağlantısı bulunamadı."
+  },
+  "emptyFilter": {
+    "message": "Bu filtreyle eşleşen bağlantı yok."
+  },
+  "permissionTitle": {
+    "message": "Site erişimi gerekiyor"
+  },
+  "permissionDetail": {
+    "message": "Bağlantıları denetlemek için listedeki ana bilgisayarlara ($1) erişim verin. Erişim yoksa bağlantılar denetlenmez."
+  },
+  "permissionHosts": {
+    "message": "Ana bilgisayar listesini göster"
+  },
+  "grantAccess": {
+    "message": "Erişime izin ver"
+  },
+  "permissionDenied": {
+    "message": "Erişim reddedildi. İlgili bağlantılar denetlenmedi olarak kalır."
+  },
+  "permissionError": {
+    "message": "Tarayıcı erişim isteyemedi. Uzantının site erişim ayarlarını kontrol edin."
+  },
+  "captureLimited": {
+    "message": "Sayfa bağlantı çıkarma sınırını aştı. Raporda bazı bağlantılar eksik olabilir."
+  },
+  "scanLimited": {
+    "message": "Benzersiz bağlantı sayısı: $1. Denetim sınırı: $2."
+  },
+  "reasonPermission": {
+    "message": "Siteye erişim verilmedi."
+  },
+  "reasonPrivateHost": {
+    "message": "Yerel veya özel adres atlandı."
+  },
+  "reasonTimeout": {
+    "message": "İstek zaman aşımına uğradı."
+  },
+  "reasonNetwork": {
+    "message": "Tarayıcı bağlantıya erişemedi."
+  },
+  "reasonHttpError": {
+    "message": "Beklenmeyen HTTP yanıtı ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "Tarayıcı yönlendirmenin hedefini göstermedi."
+  },
+  "reasonStopped": {
+    "message": "Denetim durduruldu."
+  },
+  "reasonInterrupted": {
+    "message": "Denetim sekmesi kapatıldı veya yenilendi."
+  },
+  "reasonPending": {
+    "message": "Denetim bekleniyor."
+  },
+  "interruptedHint": {
+    "message": "Kaydedilen sonuçlar kullanılabilir. Yeni denetim için Denetle’yi seçin."
+  },
+  "previousPage": {
+    "message": "Önceki sonuç sayfası"
+  },
+  "nextPage": {
+    "message": "Sonraki sonuç sayfası"
+  },
+  "resultPages": {
+    "message": "Sayfa $1 / $2"
+  },
+  "redirectTo": {
+    "message": "Yönlendirme hedefi"
+  },
+  "requestingAccess": {
+    "message": "Tarayıcı bekleniyor…"
+  },
+  "noValue": {
+    "message": "Kullanılamıyor"
+  },
+  "http401": {
+    "message": "Bu sayfada oturum açmak gerekiyor."
+  },
+  "http403": {
+    "message": "Site erişimi reddetti."
+  },
+  "http404": {
+    "message": "Sayfa bulunamadı."
+  },
+  "http410": {
+    "message": "Sayfa kaldırıldı."
+  },
+  "http429": {
+    "message": "Site istek sıklığını sınırlıyor."
+  },
+  "httpServerError": {
+    "message": "Sunucu bir hata döndürdü ($1)."
+  },
+  "scanBookmarks": {
+    "message": "Yer imlerini denetle"
+  },
+  "bookmarksTitle": {
+    "message": "Yer imleri"
+  },
+  "bookmarksDenied": {
+    "message": "Yer imi erişimi reddedildi."
+  },
+  "bookmarksError": {
+    "message": "Yer imleri okunamadı."
+  },
+  "retrySelected": {
+    "message": "Seçilenleri yeniden denetle"
+  },
+  "selectLink": {
+    "message": "Yeniden denetlenecek bağlantıyı seç: $1"
+  },
+  "selectVisible": {
+    "message": "Bu sayfada yeniden denetlenebilecek bağlantıları seç"
+  },
+  "sourceColumn": {
+    "message": "Kaynak"
+  },
+  "locateLink": {
+    "message": "Kaynak sayfada göster"
+  },
+  "locateUnavailable": {
+    "message": "Asıl bağlantı vurgulanamadı. Kaynak sayfayı açıp yeniden denetleyin."
+  },
+  "networkDisclosure": {
+    "message": "Bağlantı denetimi siteye istek gönderir. Site IP adresinizi ve diğer ağ bilgilerini görebilir."
+  },
+  "reasonUnsafeUrl": {
+    "message": "Adres hassas bilgi içerebileceği için atlandı."
+  },
+  "reasonDns": {
+    "message": "Ana bilgisayar adının herkese açık olduğu doğrulanamadı."
+  },
+  "clearReports": {
+    "message": "Kaydedilen raporları sil"
+  },
+  "reportsCleared": {
+    "message": "Kaydedilen raporlar silindi."
+  },
+  "clearReportsConfirm": {
+    "message": "Kaydedilen tüm raporlar ve sonuçları silinsin mi?"
+  },
+  "http400": {
+    "message": "Site isteği anlayamadı."
+  },
+  "http405": {
+    "message": "Site bu istek yöntemine izin vermiyor."
+  },
+  "http408": {
+    "message": "Sunucu isteği beklerken zaman aşımına uğradı."
+  },
+  "http451": {
+    "message": "Sayfa yasal nedenlerle kullanılamıyor."
+  },
+  "http502": {
+    "message": "Bir ağ geçidi başka bir sunucudan geçersiz yanıt aldı."
+  },
+  "http503": {
+    "message": "Hizmet geçici olarak kullanılamıyor."
+  },
+  "http504": {
+    "message": "Bir ağ geçidi zamanında yanıt alamadı."
+  },
+  "consentTitle": {
+    "message": "Bağlantı isteklerine izin ver"
+  },
+  "consentDetail": {
+    "message": "Firefox, sayfa bağlantılarını veya yer imi URL’lerini ilgili sitelere göndermek için onayınızı ister."
+  }
+}

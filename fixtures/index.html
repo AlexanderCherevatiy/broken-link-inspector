@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Broken Link Inspector · Status fixtures</title>
+<base href="/targets/">
+<h1>HTTP status fixtures</h1>
+<ul>
+  <li><a href="ok">200 OK, relative to the base URL</a></li>
+  <li><a href="/targets/ok#duplicate">Duplicate with a fragment</a></li>
+  <li><a href="no-content">204 No Content</a></li>
+  <li><a href="missing">404 Not Found</a></li>
+  <li><a href="gone">410 Gone</a></li>
+  <li><a href="redirect">302 Redirect</a></li>
+  <li><a href="auth">401 Unauthorized</a></li>
+  <li><a href="forbidden">403 Forbidden</a></li>
+  <li><a href="rate-limit">429 Too Many Requests</a></li>
+  <li><a href="error">503 Service Unavailable</a></li>
+  <li><a href="fallback">405 HEAD → 206 GET</a></li>
+  <li><a href="large">501 HEAD → 200 GET, ignores Range</a></li>
+  <li><a href="slow">Response after the eight-second timeout</a></li>
+  <li><a href="disconnect">Connection dropped by the server</a></li>
+  <li><a href="http://192.168.1.1/">Private host skipped by design</a></li>
+  <li><a href="#intro">Same-page anchor</a></li>
+  <li><a href="mailto:hello@example.com">Email link</a></li>
+  <li><a href="javascript:void(0)">JavaScript link</a></li>
+</ul>
+<p><a href="/stop.html">Open the cancellation fixture</a></p>

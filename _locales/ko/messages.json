@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "페이지와 북마크의 링크를 검사하고 HTTP 상태를 확인한 후 보고서를 CSV로 내보냅니다."
+  },
+  "localeName": {
+    "message": "한국어"
+  },
+  "reportTitle": {
+    "message": "링크 검사"
+  },
+  "reportDocumentTitle": {
+    "message": "링크 검사 · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "설정"
+  },
+  "language": {
+    "message": "언어"
+  },
+  "theme": {
+    "message": "모양"
+  },
+  "system": {
+    "message": "시스템 설정"
+  },
+  "light": {
+    "message": "라이트"
+  },
+  "dark": {
+    "message": "다크"
+  },
+  "close": {
+    "message": "닫기"
+  },
+  "allowLoopback": {
+    "message": "로컬 테스트 링크 허용"
+  },
+  "allowLoopbackDetail": {
+    "message": "브라우저 접근을 허용하면 localhost, 127.0.0.1, [::1]을 검사할 수 있습니다. 일상적인 검사에서는 꺼 두세요."
+  },
+  "currentPage": {
+    "message": "현재 페이지"
+  },
+  "sourcePage": {
+    "message": "출처 페이지"
+  },
+  "scanCurrentPage": {
+    "message": "현재 페이지 검사"
+  },
+  "scan": {
+    "message": "검사"
+  },
+  "stop": {
+    "message": "중지"
+  },
+  "openReport": {
+    "message": "최신 보고서 열기"
+  },
+  "sourceUnavailable": {
+    "message": "웹사이트 탭으로 이동하여 링크를 검사하세요."
+  },
+  "captureError": {
+    "message": "페이지를 읽을 수 없습니다. 일반적인 HTTP 또는 HTTPS 페이지를 열고 다시 시도하세요."
+  },
+  "storageError": {
+    "message": "보고서를 저장하거나 불러올 수 없습니다. 탭을 새로고침하거나 검사를 다시 시작하세요."
+  },
+  "settingsError": {
+    "message": "설정을 저장할 수 없습니다."
+  },
+  "openError": {
+    "message": "보고서 탭을 열 수 없습니다. 다시 시도하세요."
+  },
+  "noReportTitle": {
+    "message": "아직 보고서가 없습니다"
+  },
+  "noReportDetail": {
+    "message": "웹사이트를 열고 확장 프로그램 메뉴에서 현재 페이지 검사를 선택하세요."
+  },
+  "reportUnavailable": {
+    "message": "저장된 보고서를 더 이상 사용할 수 없습니다."
+  },
+  "loading": {
+    "message": "불러오는 중…"
+  },
+  "capturing": {
+    "message": "링크를 읽는 중…"
+  },
+  "statusOverview": {
+    "message": "검사 요약"
+  },
+  "totalLinks": {
+    "message": "전체 링크"
+  },
+  "working": {
+    "message": "정상"
+  },
+  "missing": {
+    "message": "찾을 수 없음"
+  },
+  "redirect": {
+    "message": "리디렉션"
+  },
+  "uncertain": {
+    "message": "불확실"
+  },
+  "notChecked": {
+    "message": "검사하지 않음"
+  },
+  "progress": {
+    "message": "검사 진행 상황"
+  },
+  "progressCount": {
+    "message": "$2개 중 $1개 처리"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "검사 준비 완료"
+  },
+  "phaseRunning": {
+    "message": "링크 검사 중"
+  },
+  "phaseFinished": {
+    "message": "검사 완료"
+  },
+  "phaseStopped": {
+    "message": "검사 중지됨"
+  },
+  "phaseInterrupted": {
+    "message": "검사 중단됨"
+  },
+  "phaseDuplicate": {
+    "message": "다른 탭에서 이 보고서를 처리하고 있습니다. 완료되면 결과가 업데이트됩니다."
+  },
+  "listTitle": {
+    "message": "링크 검사 결과"
+  },
+  "filter": {
+    "message": "검사 결과 필터링"
+  },
+  "allLinks": {
+    "message": "모든 링크"
+  },
+  "shownCount": {
+    "message": "$2개 중 $1개 표시"
+  },
+  "urlColumn": {
+    "message": "링크 URL"
+  },
+  "statusColumn": {
+    "message": "결과"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "세부 정보"
+  },
+  "categoryColumn": {
+    "message": "분류"
+  },
+  "errorColumn": {
+    "message": "오류"
+  },
+  "redirectColumn": {
+    "message": "리디렉션 URL"
+  },
+  "export": {
+    "message": "CSV 내보내기"
+  },
+  "emptyLinks": {
+    "message": "이 페이지에 HTTP 또는 HTTPS 링크가 없습니다."
+  },
+  "emptyFilter": {
+    "message": "필터에 맞는 링크가 없습니다."
+  },
+  "permissionTitle": {
+    "message": "사이트 접근 필요"
+  },
+  "permissionDetail": {
+    "message": "목록에 있는 호스트 $1개에 대한 접근을 허용해야 링크를 검사할 수 있습니다. 접근 권한이 없으면 검사하지 않습니다."
+  },
+  "permissionHosts": {
+    "message": "호스트 목록 보기"
+  },
+  "grantAccess": {
+    "message": "접근 허용"
+  },
+  "permissionDenied": {
+    "message": "접근이 거부되었습니다. 해당 링크는 검사하지 않은 상태로 유지됩니다."
+  },
+  "permissionError": {
+    "message": "브라우저에서 접근을 요청할 수 없습니다. 확장 프로그램의 사이트 접근 설정을 확인하세요."
+  },
+  "captureLimited": {
+    "message": "페이지가 링크 추출 한도를 초과했습니다. 보고서에 일부 링크가 누락될 수 있습니다."
+  },
+  "scanLimited": {
+    "message": "중복을 제외한 링크 $1개를 찾았습니다. 검사 한도는 $2개입니다."
+  },
+  "reasonPermission": {
+    "message": "사이트 접근이 허용되지 않았습니다."
+  },
+  "reasonPrivateHost": {
+    "message": "로컬 또는 비공개 주소를 건너뛰었습니다."
+  },
+  "reasonTimeout": {
+    "message": "요청 시간이 초과되었습니다."
+  },
+  "reasonNetwork": {
+    "message": "브라우저가 링크에 연결하지 못했습니다."
+  },
+  "reasonHttpError": {
+    "message": "예상치 못한 HTTP 응답($1)입니다."
+  },
+  "reasonRedirectHidden": {
+    "message": "브라우저가 리디렉션 대상을 제공하지 않았습니다."
+  },
+  "reasonStopped": {
+    "message": "검사가 중지되었습니다."
+  },
+  "reasonInterrupted": {
+    "message": "검사 탭이 닫히거나 새로고침되었습니다."
+  },
+  "reasonPending": {
+    "message": "검사 대기 중입니다."
+  },
+  "interruptedHint": {
+    "message": "저장된 결과를 볼 수 있습니다. 새 검사를 시작하려면 검사를 선택하세요."
+  },
+  "previousPage": {
+    "message": "이전 결과 페이지"
+  },
+  "nextPage": {
+    "message": "다음 결과 페이지"
+  },
+  "resultPages": {
+    "message": "$1 / $2 페이지"
+  },
+  "redirectTo": {
+    "message": "다음으로 리디렉션"
+  },
+  "requestingAccess": {
+    "message": "브라우저 응답 대기 중…"
+  },
+  "noValue": {
+    "message": "사용할 수 없음"
+  },
+  "http401": {
+    "message": "이 페이지에 로그인이 필요합니다."
+  },
+  "http403": {
+    "message": "사이트에서 접근을 거부했습니다."
+  },
+  "http404": {
+    "message": "페이지를 찾을 수 없습니다."
+  },
+  "http410": {
+    "message": "페이지가 삭제되었습니다."
+  },
+  "http429": {
+    "message": "사이트에서 요청 빈도를 제한합니다."
+  },
+  "httpServerError": {
+    "message": "서버가 오류를 반환했습니다($1)."
+  },
+  "scanBookmarks": {
+    "message": "북마크 검사"
+  },
+  "bookmarksTitle": {
+    "message": "북마크"
+  },
+  "bookmarksDenied": {
+    "message": "북마크 접근이 거부되었습니다."
+  },
+  "bookmarksError": {
+    "message": "북마크를 읽을 수 없습니다."
+  },
+  "retrySelected": {
+    "message": "선택 항목 다시 검사"
+  },
+  "selectLink": {
+    "message": "다시 검사할 링크 선택: $1"
+  },
+  "selectVisible": {
+    "message": "이 페이지에서 다시 검사할 수 있는 링크 선택"
+  },
+  "sourceColumn": {
+    "message": "출처"
+  },
+  "locateLink": {
+    "message": "출처 페이지에서 표시"
+  },
+  "locateUnavailable": {
+    "message": "원래 링크를 강조 표시할 수 없습니다. 출처 페이지를 다시 열고 검사하세요."
+  },
+  "networkDisclosure": {
+    "message": "링크를 검사하면 해당 사이트에 요청을 보냅니다. 사이트에서 IP 주소 및 기타 네트워크 정보를 볼 수 있습니다."
+  },
+  "reasonUnsafeUrl": {
+    "message": "주소에 민감한 정보가 포함되어 있을 수 있어 건너뛰었습니다."
+  },
+  "reasonDns": {
+    "message": "호스트 이름이 공개 주소인지 확인할 수 없습니다."
+  },
+  "clearReports": {
+    "message": "저장된 보고서 지우기"
+  },
+  "reportsCleared": {
+    "message": "저장된 보고서를 지웠습니다."
+  },
+  "clearReportsConfirm": {
+    "message": "저장된 보고서와 결과를 모두 지울까요?"
+  },
+  "http400": {
+    "message": "사이트에서 요청을 이해하지 못했습니다."
+  },
+  "http405": {
+    "message": "사이트에서 이 요청 방식을 허용하지 않습니다."
+  },
+  "http408": {
+    "message": "서버에서 요청을 기다리다 시간이 초과되었습니다."
+  },
+  "http451": {
+    "message": "법적 사유로 이 페이지를 이용할 수 없습니다."
+  },
+  "http502": {
+    "message": "게이트웨이가 다른 서버로부터 잘못된 응답을 받았습니다."
+  },
+  "http503": {
+    "message": "서비스를 일시적으로 이용할 수 없습니다."
+  },
+  "http504": {
+    "message": "게이트웨이가 제때 응답을 받지 못했습니다."
+  },
+  "consentTitle": {
+    "message": "링크 검사 요청 허용"
+  },
+  "consentDetail": {
+    "message": "Firefox는 페이지 링크나 북마크 URL을 해당 사이트에 보내기 전에 동의를 요청합니다."
+  }
+}

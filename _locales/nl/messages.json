@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "Controleer links op pagina’s en in bladwijzers, bekijk HTTP-statuscodes en exporteer rapporten als CSV."
+  },
+  "localeName": {
+    "message": "Nederlands"
+  },
+  "reportTitle": {
+    "message": "Linkcontrole"
+  },
+  "reportDocumentTitle": {
+    "message": "Linkcontrole · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "Instellingen"
+  },
+  "language": {
+    "message": "Taal"
+  },
+  "theme": {
+    "message": "Weergave"
+  },
+  "system": {
+    "message": "Systeem"
+  },
+  "light": {
+    "message": "Licht"
+  },
+  "dark": {
+    "message": "Donker"
+  },
+  "close": {
+    "message": "Sluiten"
+  },
+  "allowLoopback": {
+    "message": "Lokale testlinks toestaan"
+  },
+  "allowLoopbackDetail": {
+    "message": "Hiermee kun je localhost, 127.0.0.1 en [::1] controleren nadat je toegang hebt gegeven. Laat dit uit voor dagelijkse controles."
+  },
+  "currentPage": {
+    "message": "Huidige pagina"
+  },
+  "sourcePage": {
+    "message": "Bronpagina"
+  },
+  "scanCurrentPage": {
+    "message": "Huidige pagina controleren"
+  },
+  "scan": {
+    "message": "Controleren"
+  },
+  "stop": {
+    "message": "Stoppen"
+  },
+  "openReport": {
+    "message": "Laatste rapport openen"
+  },
+  "sourceUnavailable": {
+    "message": "Ga naar een websitetabblad om de links te controleren."
+  },
+  "captureError": {
+    "message": "De pagina kon niet worden gelezen. Open een gewone HTTP- of HTTPS-pagina en probeer het opnieuw."
+  },
+  "storageError": {
+    "message": "Het rapport kon niet worden opgeslagen of geladen. Herlaad dit tabblad of start een nieuwe controle."
+  },
+  "settingsError": {
+    "message": "Je instellingen konden niet worden opgeslagen."
+  },
+  "openError": {
+    "message": "Het rapporttabblad kon niet worden geopend. Probeer het opnieuw."
+  },
+  "noReportTitle": {
+    "message": "Nog geen rapport"
+  },
+  "noReportDetail": {
+    "message": "Open een website en kies Huidige pagina controleren in het extensiemenu."
+  },
+  "reportUnavailable": {
+    "message": "Dit opgeslagen rapport is niet meer beschikbaar."
+  },
+  "loading": {
+    "message": "Laden…"
+  },
+  "capturing": {
+    "message": "Links lezen…"
+  },
+  "statusOverview": {
+    "message": "Controlesamenvatting"
+  },
+  "totalLinks": {
+    "message": "Totaal aantal links"
+  },
+  "working": {
+    "message": "Werkt"
+  },
+  "missing": {
+    "message": "Niet gevonden"
+  },
+  "redirect": {
+    "message": "Omleiding"
+  },
+  "uncertain": {
+    "message": "Onzeker"
+  },
+  "notChecked": {
+    "message": "Niet gecontroleerd"
+  },
+  "progress": {
+    "message": "Voortgang van de controle"
+  },
+  "progressCount": {
+    "message": "$1 van $2 verwerkt"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "Klaar voor controle"
+  },
+  "phaseRunning": {
+    "message": "Links controleren"
+  },
+  "phaseFinished": {
+    "message": "Controle voltooid"
+  },
+  "phaseStopped": {
+    "message": "Controle gestopt"
+  },
+  "phaseInterrupted": {
+    "message": "Controle onderbroken"
+  },
+  "phaseDuplicate": {
+    "message": "Dit rapport wordt verwerkt in een ander tabblad. De resultaten worden bijgewerkt zodra de controle klaar is."
+  },
+  "listTitle": {
+    "message": "Linkresultaten"
+  },
+  "filter": {
+    "message": "Resultaten filteren"
+  },
+  "allLinks": {
+    "message": "Alle links"
+  },
+  "shownCount": {
+    "message": "$1 van $2 weergegeven"
+  },
+  "urlColumn": {
+    "message": "Link-URL"
+  },
+  "statusColumn": {
+    "message": "Resultaat"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "Details"
+  },
+  "categoryColumn": {
+    "message": "Categorie"
+  },
+  "errorColumn": {
+    "message": "Fout"
+  },
+  "redirectColumn": {
+    "message": "Omleidings-URL"
+  },
+  "export": {
+    "message": "CSV exporteren"
+  },
+  "emptyLinks": {
+    "message": "Geen HTTP- of HTTPS-links op deze pagina gevonden."
+  },
+  "emptyFilter": {
+    "message": "Geen links komen overeen met dit filter."
+  },
+  "permissionTitle": {
+    "message": "Toegang tot sites vereist"
+  },
+  "permissionDetail": {
+    "message": "Sta toegang toe tot de vermelde hosts ($1) om hun links te controleren. Zonder toegang blijven ze ongecontroleerd."
+  },
+  "permissionHosts": {
+    "message": "Lijst met hosts bekijken"
+  },
+  "grantAccess": {
+    "message": "Toegang toestaan"
+  },
+  "permissionDenied": {
+    "message": "Toegang is geweigerd. De betreffende links blijven gemarkeerd als niet gecontroleerd."
+  },
+  "permissionError": {
+    "message": "De browser kon geen toegang aanvragen. Controleer de instellingen voor sitetoegang van de extensie."
+  },
+  "captureLimited": {
+    "message": "De pagina overschrijdt de limiet voor het uitlezen. Sommige links kunnen in dit rapport ontbreken."
+  },
+  "scanLimited": {
+    "message": "Unieke links gevonden: $1. Controlelimiet: $2."
+  },
+  "reasonPermission": {
+    "message": "Er is geen toegang tot de site verleend."
+  },
+  "reasonPrivateHost": {
+    "message": "Lokaal of privé-adres overgeslagen."
+  },
+  "reasonTimeout": {
+    "message": "Het verzoek duurde te lang."
+  },
+  "reasonNetwork": {
+    "message": "De browser kon de link niet bereiken."
+  },
+  "reasonHttpError": {
+    "message": "Onverwachte HTTP-respons ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "De browser heeft het doel van de omleiding niet getoond."
+  },
+  "reasonStopped": {
+    "message": "De controle is gestopt."
+  },
+  "reasonInterrupted": {
+    "message": "Het controletabblad is gesloten of herladen."
+  },
+  "reasonPending": {
+    "message": "Wacht op controle."
+  },
+  "interruptedHint": {
+    "message": "Opgeslagen resultaten zijn beschikbaar. Kies Controleren om een nieuwe controle te starten."
+  },
+  "previousPage": {
+    "message": "Vorige resultatenpagina"
+  },
+  "nextPage": {
+    "message": "Volgende resultatenpagina"
+  },
+  "resultPages": {
+    "message": "Pagina $1 van $2"
+  },
+  "redirectTo": {
+    "message": "Verwijst door naar"
+  },
+  "requestingAccess": {
+    "message": "Wachten op de browser…"
+  },
+  "noValue": {
+    "message": "Niet beschikbaar"
+  },
+  "http401": {
+    "message": "Voor deze pagina moet je inloggen."
+  },
+  "http403": {
+    "message": "De website heeft toegang geweigerd."
+  },
+  "http404": {
+    "message": "De pagina is niet gevonden."
+  },
+  "http410": {
+    "message": "De pagina is verwijderd."
+  },
+  "http429": {
+    "message": "De website beperkt het aantal verzoeken."
+  },
+  "httpServerError": {
+    "message": "De server gaf een foutmelding ($1)."
+  },
+  "scanBookmarks": {
+    "message": "Bladwijzers controleren"
+  },
+  "bookmarksTitle": {
+    "message": "Bladwijzers"
+  },
+  "bookmarksDenied": {
+    "message": "Toegang tot bladwijzers is geweigerd."
+  },
+  "bookmarksError": {
+    "message": "Kon bladwijzers niet lezen."
+  },
+  "retrySelected": {
+    "message": "Selectie opnieuw controleren"
+  },
+  "selectLink": {
+    "message": "Link selecteren voor hercontrole: $1"
+  },
+  "selectVisible": {
+    "message": "Opnieuw te controleren links op deze pagina selecteren"
+  },
+  "sourceColumn": {
+    "message": "Bron"
+  },
+  "locateLink": {
+    "message": "Tonen op bronpagina"
+  },
+  "locateUnavailable": {
+    "message": "De oorspronkelijke link kon niet worden gemarkeerd. Open de bronpagina opnieuw en controleer haar nog eens."
+  },
+  "networkDisclosure": {
+    "message": "Bij een linkcontrole wordt een verzoek naar de site gestuurd. De site kan je IP-adres en andere netwerkgegevens zien."
+  },
+  "reasonUnsafeUrl": {
+    "message": "Overgeslagen omdat het adres gevoelige informatie kan bevatten."
+  },
+  "reasonDns": {
+    "message": "Kon niet vaststellen of de hostnaam openbaar is."
+  },
+  "clearReports": {
+    "message": "Opgeslagen rapporten wissen"
+  },
+  "reportsCleared": {
+    "message": "Opgeslagen rapporten zijn gewist."
+  },
+  "clearReportsConfirm": {
+    "message": "Alle opgeslagen rapporten en hun resultaten wissen?"
+  },
+  "http400": {
+    "message": "De site kon het verzoek niet begrijpen."
+  },
+  "http405": {
+    "message": "De site staat deze aanvraagmethode niet toe."
+  },
+  "http408": {
+    "message": "De server heeft te lang op het verzoek gewacht."
+  },
+  "http451": {
+    "message": "De pagina is om juridische redenen niet beschikbaar."
+  },
+  "http502": {
+    "message": "Een gateway kreeg een ongeldig antwoord van een andere server."
+  },
+  "http503": {
+    "message": "De dienst is tijdelijk niet beschikbaar."
+  },
+  "http504": {
+    "message": "Een gateway kreeg niet op tijd een antwoord."
+  },
+  "consentTitle": {
+    "message": "Linkverzoeken toestaan"
+  },
+  "consentDetail": {
+    "message": "Firefox vraagt toestemming om paginalinks of bladwijzer-URL’s naar de bijbehorende websites te sturen."
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "Перевіряйте посилання на сторінках і в закладках, переглядайте коди HTTP й експортуйте звіти в CSV."
+  },
+  "localeName": {
+    "message": "Українська"
+  },
+  "reportTitle": {
+    "message": "Перевірка посилань"
+  },
+  "reportDocumentTitle": {
+    "message": "Перевірка посилань · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "Налаштування"
+  },
+  "language": {
+    "message": "Мова"
+  },
+  "theme": {
+    "message": "Оформлення"
+  },
+  "system": {
+    "message": "Системне"
+  },
+  "light": {
+    "message": "Світле"
+  },
+  "dark": {
+    "message": "Темне"
+  },
+  "close": {
+    "message": "Закрити"
+  },
+  "allowLoopback": {
+    "message": "Дозволити локальні тестові посилання"
+  },
+  "allowLoopbackDetail": {
+    "message": "Дає змогу перевіряти localhost, 127.0.0.1 і [::1] після надання доступу. Вимкніть цю опцію для звичайних перевірок."
+  },
+  "currentPage": {
+    "message": "Поточна сторінка"
+  },
+  "sourcePage": {
+    "message": "Сторінка-джерело"
+  },
+  "scanCurrentPage": {
+    "message": "Перевірити поточну сторінку"
+  },
+  "scan": {
+    "message": "Перевірити"
+  },
+  "stop": {
+    "message": "Зупинити"
+  },
+  "openReport": {
+    "message": "Відкрити останній звіт"
+  },
+  "sourceUnavailable": {
+    "message": "Перейдіть на вкладку сайту, щоб перевірити його посилання."
+  },
+  "captureError": {
+    "message": "Не вдалося прочитати сторінку. Відкрийте звичайну сторінку HTTP або HTTPS та спробуйте ще раз."
+  },
+  "storageError": {
+    "message": "Не вдалося зберегти або завантажити звіт. Перезавантажте вкладку або почніть нову перевірку."
+  },
+  "settingsError": {
+    "message": "Не вдалося зберегти налаштування."
+  },
+  "openError": {
+    "message": "Не вдалося відкрити вкладку звіту. Спробуйте ще раз."
+  },
+  "noReportTitle": {
+    "message": "Звітів ще немає"
+  },
+  "noReportDetail": {
+    "message": "Відкрийте сайт і виберіть Перевірити поточну сторінку в меню розширення."
+  },
+  "reportUnavailable": {
+    "message": "Збережений звіт більше недоступний."
+  },
+  "loading": {
+    "message": "Завантаження…"
+  },
+  "capturing": {
+    "message": "Читання посилань…"
+  },
+  "statusOverview": {
+    "message": "Підсумок перевірки"
+  },
+  "totalLinks": {
+    "message": "Усього посилань"
+  },
+  "working": {
+    "message": "Працює"
+  },
+  "missing": {
+    "message": "Не знайдено"
+  },
+  "redirect": {
+    "message": "Перенаправлення"
+  },
+  "uncertain": {
+    "message": "Невизначено"
+  },
+  "notChecked": {
+    "message": "Не перевірено"
+  },
+  "progress": {
+    "message": "Перебіг перевірки"
+  },
+  "progressCount": {
+    "message": "Опрацьовано $1 із $2"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "Готово до перевірки"
+  },
+  "phaseRunning": {
+    "message": "Перевірка посилань"
+  },
+  "phaseFinished": {
+    "message": "Перевірку завершено"
+  },
+  "phaseStopped": {
+    "message": "Перевірку зупинено"
+  },
+  "phaseInterrupted": {
+    "message": "Перевірку перервано"
+  },
+  "phaseDuplicate": {
+    "message": "Звіт опрацьовується в іншій вкладці. Результати оновляться після завершення."
+  },
+  "listTitle": {
+    "message": "Результати перевірки"
+  },
+  "filter": {
+    "message": "Фільтрувати результати"
+  },
+  "allLinks": {
+    "message": "Усі посилання"
+  },
+  "shownCount": {
+    "message": "Показано $1 із $2"
+  },
+  "urlColumn": {
+    "message": "URL посилання"
+  },
+  "statusColumn": {
+    "message": "Результат"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "Відомості"
+  },
+  "categoryColumn": {
+    "message": "Категорія"
+  },
+  "errorColumn": {
+    "message": "Помилка"
+  },
+  "redirectColumn": {
+    "message": "URL перенаправлення"
+  },
+  "export": {
+    "message": "Експортувати CSV"
+  },
+  "emptyLinks": {
+    "message": "На цій сторінці немає посилань HTTP або HTTPS."
+  },
+  "emptyFilter": {
+    "message": "Жодне посилання не відповідає фільтру."
+  },
+  "permissionTitle": {
+    "message": "Потрібен доступ до сайтів"
+  },
+  "permissionDetail": {
+    "message": "Дозвольте доступ до перелічених хостів ($1), щоб перевірити їхні посилання. Без доступу вони залишаться неперевіреними."
+  },
+  "permissionHosts": {
+    "message": "Переглянути список хостів"
+  },
+  "grantAccess": {
+    "message": "Дозволити доступ"
+  },
+  "permissionDenied": {
+    "message": "У доступі відмовлено. Відповідні посилання залишаються неперевіреними."
+  },
+  "permissionError": {
+    "message": "Браузер не зміг запитати доступ. Перевірте налаштування доступу розширення до сайтів."
+  },
+  "captureLimited": {
+    "message": "Сторінка перевищила ліміт зчитування. У звіті можуть бути відсутні деякі посилання."
+  },
+  "scanLimited": {
+    "message": "Знайдено унікальних посилань: $1. Ліміт перевірки: $2."
+  },
+  "reasonPermission": {
+    "message": "Доступ до сайту не надано."
+  },
+  "reasonPrivateHost": {
+    "message": "Локальну або приватну адресу пропущено."
+  },
+  "reasonTimeout": {
+    "message": "Час очікування запиту вичерпано."
+  },
+  "reasonNetwork": {
+    "message": "Браузер не зміг відкрити посилання."
+  },
+  "reasonHttpError": {
+    "message": "Неочікувана відповідь HTTP ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "Браузер не показав адресу перенаправлення."
+  },
+  "reasonStopped": {
+    "message": "Перевірку зупинено."
+  },
+  "reasonInterrupted": {
+    "message": "Вкладку перевірки закрито або перезавантажено."
+  },
+  "reasonPending": {
+    "message": "Очікує на перевірку."
+  },
+  "interruptedHint": {
+    "message": "Збережені результати доступні. Виберіть Перевірити, щоб почати нову перевірку."
+  },
+  "previousPage": {
+    "message": "Попередня сторінка результатів"
+  },
+  "nextPage": {
+    "message": "Наступна сторінка результатів"
+  },
+  "resultPages": {
+    "message": "Сторінка $1 із $2"
+  },
+  "redirectTo": {
+    "message": "Перенаправляє на"
+  },
+  "requestingAccess": {
+    "message": "Очікування браузера…"
+  },
+  "noValue": {
+    "message": "Недоступно"
+  },
+  "http401": {
+    "message": "Для перегляду цієї сторінки потрібно ввійти в обліковий запис."
+  },
+  "http403": {
+    "message": "Сайт відмовив у доступі."
+  },
+  "http404": {
+    "message": "Сторінку не знайдено."
+  },
+  "http410": {
+    "message": "Сторінку видалено."
+  },
+  "http429": {
+    "message": "Сайт обмежує частоту запитів."
+  },
+  "httpServerError": {
+    "message": "Сервер повернув помилку ($1)."
+  },
+  "scanBookmarks": {
+    "message": "Перевірити закладки"
+  },
+  "bookmarksTitle": {
+    "message": "Закладки"
+  },
+  "bookmarksDenied": {
+    "message": "У доступі до закладок відмовлено."
+  },
+  "bookmarksError": {
+    "message": "Не вдалося прочитати закладки."
+  },
+  "retrySelected": {
+    "message": "Перевірити вибрані повторно"
+  },
+  "selectLink": {
+    "message": "Вибрати посилання для повторної перевірки: $1"
+  },
+  "selectVisible": {
+    "message": "Вибрати посилання на цій сторінці, які можна перевірити повторно"
+  },
+  "sourceColumn": {
+    "message": "Джерело"
+  },
+  "locateLink": {
+    "message": "Показати на сторінці-джерелі"
+  },
+  "locateUnavailable": {
+    "message": "Не вдалося підсвітити початкове посилання. Відкрийте сторінку-джерело та перевірте її ще раз."
+  },
+  "networkDisclosure": {
+    "message": "Під час перевірки посилання розширення надсилає запит до сайту. Сайт може побачити вашу IP-адресу та інші мережеві дані."
+  },
+  "reasonUnsafeUrl": {
+    "message": "Адресу пропущено, оскільки вона може містити конфіденційні дані."
+  },
+  "reasonDns": {
+    "message": "Не вдалося підтвердити, що ім’я хоста є публічним."
+  },
+  "clearReports": {
+    "message": "Видалити збережені звіти"
+  },
+  "reportsCleared": {
+    "message": "Збережені звіти видалено."
+  },
+  "clearReportsConfirm": {
+    "message": "Видалити всі збережені звіти та їхні результати?"
+  },
+  "http400": {
+    "message": "Сайт не зміг зрозуміти запит."
+  },
+  "http405": {
+    "message": "Сайт не дозволяє цей метод запиту."
+  },
+  "http408": {
+    "message": "Сервер не дочекався запиту."
+  },
+  "http451": {
+    "message": "Сторінка недоступна з юридичних причин."
+  },
+  "http502": {
+    "message": "Шлюз отримав некоректну відповідь від іншого сервера."
+  },
+  "http503": {
+    "message": "Сервіс тимчасово недоступний."
+  },
+  "http504": {
+    "message": "Шлюз не отримав відповідь вчасно."
+  },
+  "consentTitle": {
+    "message": "Дозволити запити для перевірки посилань"
+  },
+  "consentDetail": {
+    "message": "Firefox запитує згоду на надсилання посилань зі сторінок або URL закладок на відповідні сайти."
+  }
+}

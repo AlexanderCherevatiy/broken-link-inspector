@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "Kiểm tra liên kết trên trang và trong dấu trang, xem trạng thái HTTP và xuất báo cáo CSV."
+  },
+  "localeName": {
+    "message": "Tiếng Việt"
+  },
+  "reportTitle": {
+    "message": "Kiểm tra liên kết"
+  },
+  "reportDocumentTitle": {
+    "message": "Kiểm tra liên kết · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "Cài đặt"
+  },
+  "language": {
+    "message": "Ngôn ngữ"
+  },
+  "theme": {
+    "message": "Giao diện"
+  },
+  "system": {
+    "message": "Theo hệ thống"
+  },
+  "light": {
+    "message": "Sáng"
+  },
+  "dark": {
+    "message": "Tối"
+  },
+  "close": {
+    "message": "Đóng"
+  },
+  "allowLoopback": {
+    "message": "Cho phép liên kết kiểm thử cục bộ"
+  },
+  "allowLoopbackDetail": {
+    "message": "Cho phép kiểm tra localhost, 127.0.0.1 và [::1] sau khi cấp quyền trong trình duyệt. Hãy tắt tùy chọn này khi kiểm tra thông thường."
+  },
+  "currentPage": {
+    "message": "Trang hiện tại"
+  },
+  "sourcePage": {
+    "message": "Trang nguồn"
+  },
+  "scanCurrentPage": {
+    "message": "Kiểm tra trang hiện tại"
+  },
+  "scan": {
+    "message": "Kiểm tra"
+  },
+  "stop": {
+    "message": "Dừng"
+  },
+  "openReport": {
+    "message": "Mở báo cáo mới nhất"
+  },
+  "sourceUnavailable": {
+    "message": "Chuyển sang thẻ của một trang web để kiểm tra liên kết."
+  },
+  "captureError": {
+    "message": "Không thể đọc trang này. Hãy mở trang HTTP hoặc HTTPS thông thường và thử lại."
+  },
+  "storageError": {
+    "message": "Không thể lưu hoặc tải báo cáo. Hãy tải lại thẻ này hoặc bắt đầu kiểm tra mới."
+  },
+  "settingsError": {
+    "message": "Không thể lưu cài đặt."
+  },
+  "openError": {
+    "message": "Không thể mở thẻ báo cáo. Vui lòng thử lại."
+  },
+  "noReportTitle": {
+    "message": "Chưa có báo cáo"
+  },
+  "noReportDetail": {
+    "message": "Mở một trang web và chọn Kiểm tra trang hiện tại trong menu tiện ích."
+  },
+  "reportUnavailable": {
+    "message": "Báo cáo đã lưu này không còn khả dụng."
+  },
+  "loading": {
+    "message": "Đang tải…"
+  },
+  "capturing": {
+    "message": "Đang đọc liên kết…"
+  },
+  "statusOverview": {
+    "message": "Tóm tắt kiểm tra"
+  },
+  "totalLinks": {
+    "message": "Tổng số liên kết"
+  },
+  "working": {
+    "message": "Hoạt động"
+  },
+  "missing": {
+    "message": "Không tìm thấy"
+  },
+  "redirect": {
+    "message": "Chuyển hướng"
+  },
+  "uncertain": {
+    "message": "Chưa xác định"
+  },
+  "notChecked": {
+    "message": "Chưa kiểm tra"
+  },
+  "progress": {
+    "message": "Tiến độ kiểm tra"
+  },
+  "progressCount": {
+    "message": "Đã xử lý $1 trên $2"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "Sẵn sàng kiểm tra"
+  },
+  "phaseRunning": {
+    "message": "Đang kiểm tra liên kết"
+  },
+  "phaseFinished": {
+    "message": "Đã kiểm tra xong"
+  },
+  "phaseStopped": {
+    "message": "Đã dừng kiểm tra"
+  },
+  "phaseInterrupted": {
+    "message": "Kiểm tra bị gián đoạn"
+  },
+  "phaseDuplicate": {
+    "message": "Báo cáo đang được xử lý trong một thẻ khác. Kết quả sẽ cập nhật khi hoàn tất."
+  },
+  "listTitle": {
+    "message": "Kết quả kiểm tra liên kết"
+  },
+  "filter": {
+    "message": "Lọc kết quả"
+  },
+  "allLinks": {
+    "message": "Tất cả liên kết"
+  },
+  "shownCount": {
+    "message": "Đang hiện $1 trên $2"
+  },
+  "urlColumn": {
+    "message": "URL liên kết"
+  },
+  "statusColumn": {
+    "message": "Kết quả"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "Chi tiết"
+  },
+  "categoryColumn": {
+    "message": "Danh mục"
+  },
+  "errorColumn": {
+    "message": "Lỗi"
+  },
+  "redirectColumn": {
+    "message": "URL chuyển hướng"
+  },
+  "export": {
+    "message": "Xuất CSV"
+  },
+  "emptyLinks": {
+    "message": "Không tìm thấy liên kết HTTP hoặc HTTPS trên trang này."
+  },
+  "emptyFilter": {
+    "message": "Không có liên kết nào phù hợp bộ lọc."
+  },
+  "permissionTitle": {
+    "message": "Cần quyền truy cập trang web"
+  },
+  "permissionDetail": {
+    "message": "Cho phép truy cập $1 máy chủ trong danh sách để kiểm tra các liên kết. Liên kết không được cấp quyền sẽ không được kiểm tra."
+  },
+  "permissionHosts": {
+    "message": "Xem danh sách máy chủ"
+  },
+  "grantAccess": {
+    "message": "Cho phép truy cập"
+  },
+  "permissionDenied": {
+    "message": "Quyền truy cập bị từ chối. Các liên kết liên quan vẫn được đánh dấu là chưa kiểm tra."
+  },
+  "permissionError": {
+    "message": "Trình duyệt không thể yêu cầu quyền truy cập. Hãy xem cài đặt quyền truy cập trang của tiện ích."
+  },
+  "captureLimited": {
+    "message": "Trang vượt giới hạn lấy liên kết. Báo cáo có thể thiếu một số liên kết."
+  },
+  "scanLimited": {
+    "message": "Tìm thấy $1 liên kết riêng biệt. Giới hạn kiểm tra: $2."
+  },
+  "reasonPermission": {
+    "message": "Chưa cấp quyền truy cập trang web."
+  },
+  "reasonPrivateHost": {
+    "message": "Đã bỏ qua địa chỉ cục bộ hoặc riêng tư."
+  },
+  "reasonTimeout": {
+    "message": "Yêu cầu đã hết thời gian chờ."
+  },
+  "reasonNetwork": {
+    "message": "Trình duyệt không thể kết nối tới liên kết."
+  },
+  "reasonHttpError": {
+    "message": "Phản hồi HTTP ngoài dự kiến ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "Trình duyệt không cung cấp địa chỉ chuyển hướng."
+  },
+  "reasonStopped": {
+    "message": "Quá trình kiểm tra đã dừng."
+  },
+  "reasonInterrupted": {
+    "message": "Thẻ kiểm tra đã đóng hoặc được tải lại."
+  },
+  "reasonPending": {
+    "message": "Đang chờ kiểm tra."
+  },
+  "interruptedHint": {
+    "message": "Có thể xem kết quả đã lưu. Chọn Kiểm tra để bắt đầu lại."
+  },
+  "previousPage": {
+    "message": "Trang kết quả trước"
+  },
+  "nextPage": {
+    "message": "Trang kết quả tiếp theo"
+  },
+  "resultPages": {
+    "message": "Trang $1 trên $2"
+  },
+  "redirectTo": {
+    "message": "Chuyển hướng đến"
+  },
+  "requestingAccess": {
+    "message": "Đang chờ trình duyệt…"
+  },
+  "noValue": {
+    "message": "Không khả dụng"
+  },
+  "http401": {
+    "message": "Trang này yêu cầu đăng nhập."
+  },
+  "http403": {
+    "message": "Trang web từ chối truy cập."
+  },
+  "http404": {
+    "message": "Không tìm thấy trang."
+  },
+  "http410": {
+    "message": "Trang đã bị gỡ bỏ."
+  },
+  "http429": {
+    "message": "Trang web giới hạn tần suất gửi yêu cầu."
+  },
+  "httpServerError": {
+    "message": "Máy chủ trả về lỗi ($1)."
+  },
+  "scanBookmarks": {
+    "message": "Kiểm tra dấu trang"
+  },
+  "bookmarksTitle": {
+    "message": "Dấu trang"
+  },
+  "bookmarksDenied": {
+    "message": "Quyền truy cập dấu trang bị từ chối."
+  },
+  "bookmarksError": {
+    "message": "Không thể đọc dấu trang."
+  },
+  "retrySelected": {
+    "message": "Kiểm tra lại mục đã chọn"
+  },
+  "selectLink": {
+    "message": "Chọn liên kết để kiểm tra lại: $1"
+  },
+  "selectVisible": {
+    "message": "Chọn những liên kết có thể kiểm tra lại trên trang này"
+  },
+  "sourceColumn": {
+    "message": "Nguồn"
+  },
+  "locateLink": {
+    "message": "Hiển thị trên trang nguồn"
+  },
+  "locateUnavailable": {
+    "message": "Không thể làm nổi bật liên kết gốc. Hãy mở lại trang nguồn và kiểm tra lại."
+  },
+  "networkDisclosure": {
+    "message": "Khi kiểm tra liên kết, tiện ích gửi yêu cầu đến trang web tương ứng. Trang web có thể thấy địa chỉ IP và thông tin mạng khác của bạn."
+  },
+  "reasonUnsafeUrl": {
+    "message": "Đã bỏ qua vì địa chỉ có thể chứa thông tin nhạy cảm."
+  },
+  "reasonDns": {
+    "message": "Không xác minh được tên máy chủ có phải là địa chỉ công khai hay không."
+  },
+  "clearReports": {
+    "message": "Xóa báo cáo đã lưu"
+  },
+  "reportsCleared": {
+    "message": "Đã xóa báo cáo đã lưu."
+  },
+  "clearReportsConfirm": {
+    "message": "Xóa tất cả báo cáo đã lưu và kết quả của chúng?"
+  },
+  "http400": {
+    "message": "Trang web không hiểu yêu cầu."
+  },
+  "http405": {
+    "message": "Trang web không cho phép phương thức yêu cầu này."
+  },
+  "http408": {
+    "message": "Máy chủ hết thời gian chờ yêu cầu."
+  },
+  "http451": {
+    "message": "Trang không khả dụng vì lý do pháp lý."
+  },
+  "http502": {
+    "message": "Cổng kết nối nhận được phản hồi không hợp lệ từ máy chủ khác."
+  },
+  "http503": {
+    "message": "Dịch vụ tạm thời không khả dụng."
+  },
+  "http504": {
+    "message": "Cổng kết nối không nhận được phản hồi kịp thời."
+  },
+  "consentTitle": {
+    "message": "Cho phép gửi yêu cầu kiểm tra liên kết"
+  },
+  "consentDetail": {
+    "message": "Firefox xin phép gửi liên kết của trang hoặc URL trong dấu trang đến các trang web tương ứng."
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "Controlla i link delle pagine e dei segnalibri, consulta gli stati HTTP ed esporta i report in CSV."
+  },
+  "localeName": {
+    "message": "Italiano"
+  },
+  "reportTitle": {
+    "message": "Verifica dei link"
+  },
+  "reportDocumentTitle": {
+    "message": "Verifica dei link · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "Impostazioni"
+  },
+  "language": {
+    "message": "Lingua"
+  },
+  "theme": {
+    "message": "Aspetto"
+  },
+  "system": {
+    "message": "Sistema"
+  },
+  "light": {
+    "message": "Chiaro"
+  },
+  "dark": {
+    "message": "Scuro"
+  },
+  "close": {
+    "message": "Chiudi"
+  },
+  "allowLoopback": {
+    "message": "Consenti link di test locali"
+  },
+  "allowLoopbackDetail": {
+    "message": "Consente di controllare localhost, 127.0.0.1 e [::1] dopo aver dato accesso nel browser. Lascia l’opzione disattivata per i controlli quotidiani."
+  },
+  "currentPage": {
+    "message": "Pagina corrente"
+  },
+  "sourcePage": {
+    "message": "Pagina di origine"
+  },
+  "scanCurrentPage": {
+    "message": "Controlla la pagina corrente"
+  },
+  "scan": {
+    "message": "Controlla"
+  },
+  "stop": {
+    "message": "Ferma"
+  },
+  "openReport": {
+    "message": "Apri l’ultimo report"
+  },
+  "sourceUnavailable": {
+    "message": "Apri la scheda di un sito per controllarne i link."
+  },
+  "captureError": {
+    "message": "Impossibile leggere la pagina. Apri una normale pagina HTTP o HTTPS e riprova."
+  },
+  "storageError": {
+    "message": "Impossibile salvare o caricare il report. Ricarica la scheda o avvia un nuovo controllo."
+  },
+  "settingsError": {
+    "message": "Impossibile salvare le impostazioni."
+  },
+  "openError": {
+    "message": "Impossibile aprire la scheda del report. Riprova."
+  },
+  "noReportTitle": {
+    "message": "Nessun report per ora"
+  },
+  "noReportDetail": {
+    "message": "Apri un sito e seleziona Controlla la pagina corrente dal menu dell’estensione."
+  },
+  "reportUnavailable": {
+    "message": "Questo report salvato non è più disponibile."
+  },
+  "loading": {
+    "message": "Caricamento…"
+  },
+  "capturing": {
+    "message": "Lettura dei link…"
+  },
+  "statusOverview": {
+    "message": "Riepilogo del controllo"
+  },
+  "totalLinks": {
+    "message": "Link totali"
+  },
+  "working": {
+    "message": "Funzionante"
+  },
+  "missing": {
+    "message": "Non trovato"
+  },
+  "redirect": {
+    "message": "Reindirizzamento"
+  },
+  "uncertain": {
+    "message": "Incerto"
+  },
+  "notChecked": {
+    "message": "Non controllato"
+  },
+  "progress": {
+    "message": "Avanzamento del controllo"
+  },
+  "progressCount": {
+    "message": "$1 di $2 elaborati"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "Pronto per il controllo"
+  },
+  "phaseRunning": {
+    "message": "Controllo dei link in corso"
+  },
+  "phaseFinished": {
+    "message": "Controllo completato"
+  },
+  "phaseStopped": {
+    "message": "Controllo fermato"
+  },
+  "phaseInterrupted": {
+    "message": "Controllo interrotto"
+  },
+  "phaseDuplicate": {
+    "message": "Il report è in elaborazione in un’altra scheda. I risultati si aggiorneranno alla fine."
+  },
+  "listTitle": {
+    "message": "Risultati dei link"
+  },
+  "filter": {
+    "message": "Filtra i risultati"
+  },
+  "allLinks": {
+    "message": "Tutti i link"
+  },
+  "shownCount": {
+    "message": "$1 di $2 visualizzati"
+  },
+  "urlColumn": {
+    "message": "URL del link"
+  },
+  "statusColumn": {
+    "message": "Risultato"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "Dettagli"
+  },
+  "categoryColumn": {
+    "message": "Categoria"
+  },
+  "errorColumn": {
+    "message": "Errore"
+  },
+  "redirectColumn": {
+    "message": "URL di reindirizzamento"
+  },
+  "export": {
+    "message": "Esporta CSV"
+  },
+  "emptyLinks": {
+    "message": "Nessun link HTTP o HTTPS trovato in questa pagina."
+  },
+  "emptyFilter": {
+    "message": "Nessun link corrisponde al filtro."
+  },
+  "permissionTitle": {
+    "message": "Accesso ai siti necessario"
+  },
+  "permissionDetail": {
+    "message": "Consenti l’accesso agli host elencati ($1) per controllarne i link. Senza accesso restano non controllati."
+  },
+  "permissionHosts": {
+    "message": "Mostra elenco degli host"
+  },
+  "grantAccess": {
+    "message": "Consenti accesso"
+  },
+  "permissionDenied": {
+    "message": "L’accesso è stato rifiutato. I link interessati restano non controllati."
+  },
+  "permissionError": {
+    "message": "Il browser non ha potuto richiedere l’accesso. Controlla i permessi dell’estensione per i siti."
+  },
+  "captureLimited": {
+    "message": "La pagina supera il limite di estrazione. Alcuni link potrebbero non essere nel report."
+  },
+  "scanLimited": {
+    "message": "Link unici trovati: $1. Limite di controllo: $2."
+  },
+  "reasonPermission": {
+    "message": "L’accesso al sito non è stato concesso."
+  },
+  "reasonPrivateHost": {
+    "message": "Indirizzo locale o privato ignorato."
+  },
+  "reasonTimeout": {
+    "message": "La richiesta è scaduta."
+  },
+  "reasonNetwork": {
+    "message": "Il browser non ha raggiunto il link."
+  },
+  "reasonHttpError": {
+    "message": "Risposta HTTP imprevista ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "Il browser non ha mostrato la destinazione del reindirizzamento."
+  },
+  "reasonStopped": {
+    "message": "Il controllo è stato fermato."
+  },
+  "reasonInterrupted": {
+    "message": "La scheda del controllo è stata chiusa o ricaricata."
+  },
+  "reasonPending": {
+    "message": "In attesa di controllo."
+  },
+  "interruptedHint": {
+    "message": "I risultati salvati sono disponibili. Seleziona Controlla per avviare un nuovo controllo."
+  },
+  "previousPage": {
+    "message": "Pagina precedente dei risultati"
+  },
+  "nextPage": {
+    "message": "Pagina successiva dei risultati"
+  },
+  "resultPages": {
+    "message": "Pagina $1 di $2"
+  },
+  "redirectTo": {
+    "message": "Reindirizza a"
+  },
+  "requestingAccess": {
+    "message": "In attesa del browser…"
+  },
+  "noValue": {
+    "message": "Non disponibile"
+  },
+  "http401": {
+    "message": "Questa pagina richiede l’accesso con un account."
+  },
+  "http403": {
+    "message": "Il sito ha rifiutato l’accesso."
+  },
+  "http404": {
+    "message": "La pagina non è stata trovata."
+  },
+  "http410": {
+    "message": "La pagina è stata rimossa."
+  },
+  "http429": {
+    "message": "Il sito limita la frequenza delle richieste."
+  },
+  "httpServerError": {
+    "message": "Il server ha restituito un errore ($1)."
+  },
+  "scanBookmarks": {
+    "message": "Controlla i segnalibri"
+  },
+  "bookmarksTitle": {
+    "message": "Segnalibri"
+  },
+  "bookmarksDenied": {
+    "message": "L’accesso ai segnalibri è stato rifiutato."
+  },
+  "bookmarksError": {
+    "message": "Impossibile leggere i segnalibri."
+  },
+  "retrySelected": {
+    "message": "Ricontrolla la selezione"
+  },
+  "selectLink": {
+    "message": "Seleziona il link da ricontrollare: $1"
+  },
+  "selectVisible": {
+    "message": "Seleziona i link di questa pagina che possono essere ricontrollati"
+  },
+  "sourceColumn": {
+    "message": "Origine"
+  },
+  "locateLink": {
+    "message": "Mostra nella pagina di origine"
+  },
+  "locateUnavailable": {
+    "message": "Impossibile evidenziare il link originale. Riapri la pagina di origine e controllala di nuovo."
+  },
+  "networkDisclosure": {
+    "message": "Controllare un link invia una richiesta al suo sito. Il sito può vedere il tuo indirizzo IP e altri dati di rete."
+  },
+  "reasonUnsafeUrl": {
+    "message": "Indirizzo ignorato perché potrebbe contenere informazioni riservate."
+  },
+  "reasonDns": {
+    "message": "Impossibile verificare che il nome host sia pubblico."
+  },
+  "clearReports": {
+    "message": "Elimina i report salvati"
+  },
+  "reportsCleared": {
+    "message": "I report salvati sono stati eliminati."
+  },
+  "clearReportsConfirm": {
+    "message": "Eliminare tutti i report salvati e i relativi risultati?"
+  },
+  "http400": {
+    "message": "Il sito non ha potuto interpretare la richiesta."
+  },
+  "http405": {
+    "message": "Il sito non consente questo metodo di richiesta."
+  },
+  "http408": {
+    "message": "Il tempo di attesa della richiesta sul server è scaduto."
+  },
+  "http451": {
+    "message": "La pagina non è disponibile per motivi legali."
+  },
+  "http502": {
+    "message": "Un gateway ha ricevuto una risposta non valida da un altro server."
+  },
+  "http503": {
+    "message": "Il servizio non è temporaneamente disponibile."
+  },
+  "http504": {
+    "message": "Un gateway non ha ricevuto una risposta in tempo."
+  },
+  "consentTitle": {
+    "message": "Consenti le richieste per i link"
+  },
+  "consentDetail": {
+    "message": "Firefox chiede il consenso per inviare i link delle pagine o gli URL dei segnalibri ai siti corrispondenti."
+  }
+}

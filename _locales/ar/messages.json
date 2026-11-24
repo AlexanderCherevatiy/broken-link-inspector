@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "افحص روابط الصفحات والإشارات المرجعية، واعرض حالات HTTP، وصدّر التقارير بصيغة CSV."
+  },
+  "localeName": {
+    "message": "العربية"
+  },
+  "reportTitle": {
+    "message": "فحص الروابط"
+  },
+  "reportDocumentTitle": {
+    "message": "فحص الروابط · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "الإعدادات"
+  },
+  "language": {
+    "message": "اللغة"
+  },
+  "theme": {
+    "message": "المظهر"
+  },
+  "system": {
+    "message": "حسب النظام"
+  },
+  "light": {
+    "message": "فاتح"
+  },
+  "dark": {
+    "message": "داكن"
+  },
+  "close": {
+    "message": "إغلاق"
+  },
+  "allowLoopback": {
+    "message": "السماح بروابط الاختبار المحلية"
+  },
+  "allowLoopbackDetail": {
+    "message": "يتيح فحص localhost و127.0.0.1 و[::1] بعد منح الإذن في المتصفح. اتركه معطلاً للفحوص المعتادة."
+  },
+  "currentPage": {
+    "message": "الصفحة الحالية"
+  },
+  "sourcePage": {
+    "message": "صفحة المصدر"
+  },
+  "scanCurrentPage": {
+    "message": "فحص الصفحة الحالية"
+  },
+  "scan": {
+    "message": "فحص"
+  },
+  "stop": {
+    "message": "إيقاف"
+  },
+  "openReport": {
+    "message": "فتح آخر تقرير"
+  },
+  "sourceUnavailable": {
+    "message": "انتقل إلى تبويب موقع ويب لفحص روابطه."
+  },
+  "captureError": {
+    "message": "تعذّرت قراءة الصفحة. افتح صفحة HTTP أو HTTPS عادية وأعد المحاولة."
+  },
+  "storageError": {
+    "message": "تعذّر حفظ التقرير أو تحميله. أعد تحميل التبويب أو ابدأ فحصًا جديدًا."
+  },
+  "settingsError": {
+    "message": "تعذّر حفظ إعداداتك."
+  },
+  "openError": {
+    "message": "تعذّر فتح تبويب التقرير. أعد المحاولة."
+  },
+  "noReportTitle": {
+    "message": "لا يوجد تقرير بعد"
+  },
+  "noReportDetail": {
+    "message": "افتح موقعًا واختر «فحص الصفحة الحالية» من قائمة الإضافة."
+  },
+  "reportUnavailable": {
+    "message": "هذا التقرير المحفوظ لم يعد متاحًا."
+  },
+  "loading": {
+    "message": "جارٍ التحميل…"
+  },
+  "capturing": {
+    "message": "جارٍ قراءة الروابط…"
+  },
+  "statusOverview": {
+    "message": "ملخّص الفحص"
+  },
+  "totalLinks": {
+    "message": "إجمالي الروابط"
+  },
+  "working": {
+    "message": "يعمل"
+  },
+  "missing": {
+    "message": "غير موجود"
+  },
+  "redirect": {
+    "message": "إعادة توجيه"
+  },
+  "uncertain": {
+    "message": "غير مؤكد"
+  },
+  "notChecked": {
+    "message": "لم يُفحص"
+  },
+  "progress": {
+    "message": "تقدّم الفحص"
+  },
+  "progressCount": {
+    "message": "تمت معالجة $1 من $2"
+  },
+  "progressPercent": {
+    "message": "$1٪"
+  },
+  "phaseReady": {
+    "message": "جاهز للفحص"
+  },
+  "phaseRunning": {
+    "message": "جارٍ فحص الروابط"
+  },
+  "phaseFinished": {
+    "message": "اكتمل الفحص"
+  },
+  "phaseStopped": {
+    "message": "توقف الفحص"
+  },
+  "phaseInterrupted": {
+    "message": "انقطع الفحص"
+  },
+  "phaseDuplicate": {
+    "message": "يُفحص هذا التقرير في تبويب آخر. ستتحدث النتائج عند اكتماله."
+  },
+  "listTitle": {
+    "message": "نتائج الروابط"
+  },
+  "filter": {
+    "message": "تصفية النتائج"
+  },
+  "allLinks": {
+    "message": "كل الروابط"
+  },
+  "shownCount": {
+    "message": "المعروض $1 من $2"
+  },
+  "urlColumn": {
+    "message": "عنوان الرابط"
+  },
+  "statusColumn": {
+    "message": "النتيجة"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "التفاصيل"
+  },
+  "categoryColumn": {
+    "message": "الفئة"
+  },
+  "errorColumn": {
+    "message": "الخطأ"
+  },
+  "redirectColumn": {
+    "message": "عنوان إعادة التوجيه"
+  },
+  "export": {
+    "message": "تصدير CSV"
+  },
+  "emptyLinks": {
+    "message": "لم يُعثر على روابط HTTP أو HTTPS في هذه الصفحة."
+  },
+  "emptyFilter": {
+    "message": "لا توجد روابط تطابق هذا المرشح."
+  },
+  "permissionTitle": {
+    "message": "يلزم الوصول إلى المواقع"
+  },
+  "permissionDetail": {
+    "message": "اسمح بالوصول إلى المضيفين المدرجين وعددهم $1 لفحص روابطهم. تبقى الروابط بلا فحص من دون إذن."
+  },
+  "permissionHosts": {
+    "message": "عرض قائمة المضيفين"
+  },
+  "grantAccess": {
+    "message": "السماح بالوصول"
+  },
+  "permissionDenied": {
+    "message": "رُفض الوصول. تظل الروابط المعنية معلّمة بأنها لم تُفحص."
+  },
+  "permissionError": {
+    "message": "تعذّر على المتصفح طلب إذن الوصول. راجع إعدادات وصول الإضافة إلى المواقع."
+  },
+  "captureLimited": {
+    "message": "تجاوزت الصفحة حد استخراج الروابط. قد تغيب بعض الروابط عن التقرير."
+  },
+  "scanLimited": {
+    "message": "الروابط الفريدة: $1. حد الفحص: $2."
+  },
+  "reasonPermission": {
+    "message": "لم يُمنح إذن الوصول إلى الموقع."
+  },
+  "reasonPrivateHost": {
+    "message": "تم تخطي عنوان محلي أو خاص."
+  },
+  "reasonTimeout": {
+    "message": "انتهت مهلة الطلب."
+  },
+  "reasonNetwork": {
+    "message": "تعذّر على المتصفح الوصول إلى الرابط."
+  },
+  "reasonHttpError": {
+    "message": "استجابة HTTP غير متوقعة ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "لم يعرض المتصفح وجهة إعادة التوجيه."
+  },
+  "reasonStopped": {
+    "message": "أُوقف الفحص."
+  },
+  "reasonInterrupted": {
+    "message": "أُغلق تبويب الفحص أو أُعيد تحميله."
+  },
+  "reasonPending": {
+    "message": "في انتظار الفحص."
+  },
+  "interruptedHint": {
+    "message": "النتائج المحفوظة متاحة. اختر «فحص» لبدء فحص جديد."
+  },
+  "previousPage": {
+    "message": "صفحة النتائج السابقة"
+  },
+  "nextPage": {
+    "message": "صفحة النتائج التالية"
+  },
+  "resultPages": {
+    "message": "الصفحة $1 من $2"
+  },
+  "redirectTo": {
+    "message": "يعيد التوجيه إلى"
+  },
+  "requestingAccess": {
+    "message": "في انتظار المتصفح…"
+  },
+  "noValue": {
+    "message": "غير متاح"
+  },
+  "http401": {
+    "message": "تتطلب هذه الصفحة تسجيل الدخول."
+  },
+  "http403": {
+    "message": "رفض الموقع الوصول."
+  },
+  "http404": {
+    "message": "لم يُعثر على الصفحة."
+  },
+  "http410": {
+    "message": "أُزيلت الصفحة."
+  },
+  "http429": {
+    "message": "يحدّ الموقع من معدل الطلبات."
+  },
+  "httpServerError": {
+    "message": "أعاد الخادم خطأً ($1)."
+  },
+  "scanBookmarks": {
+    "message": "فحص الإشارات المرجعية"
+  },
+  "bookmarksTitle": {
+    "message": "الإشارات المرجعية"
+  },
+  "bookmarksDenied": {
+    "message": "رُفض الوصول إلى الإشارات المرجعية."
+  },
+  "bookmarksError": {
+    "message": "تعذّرت قراءة الإشارات المرجعية."
+  },
+  "retrySelected": {
+    "message": "إعادة فحص المحدد"
+  },
+  "selectLink": {
+    "message": "حدد الرابط لإعادة فحصه: $1"
+  },
+  "selectVisible": {
+    "message": "حدد الروابط المؤهلة لإعادة الفحص في هذه الصفحة"
+  },
+  "sourceColumn": {
+    "message": "المصدر"
+  },
+  "locateLink": {
+    "message": "الإظهار في صفحة المصدر"
+  },
+  "locateUnavailable": {
+    "message": "تعذّر تمييز الرابط الأصلي. افتح صفحة المصدر مجددًا وأعد فحصها."
+  },
+  "networkDisclosure": {
+    "message": "يرسل فحص الرابط طلبًا إلى موقعه. يمكن للموقع رؤية عنوان IP الخاص بك ومعلومات أخرى عن شبكتك."
+  },
+  "reasonUnsafeUrl": {
+    "message": "تم التخطي لأن العنوان قد يتضمن معلومات حساسة."
+  },
+  "reasonDns": {
+    "message": "تعذّر التحقق من أن اسم المضيف يشير إلى عنوان عام."
+  },
+  "clearReports": {
+    "message": "مسح التقارير المحفوظة"
+  },
+  "reportsCleared": {
+    "message": "مُسحت التقارير المحفوظة."
+  },
+  "clearReportsConfirm": {
+    "message": "هل تريد مسح جميع التقارير المحفوظة ونتائجها؟"
+  },
+  "http400": {
+    "message": "لم يفهم الموقع الطلب."
+  },
+  "http405": {
+    "message": "لا يسمح الموقع بطريقة الطلب هذه."
+  },
+  "http408": {
+    "message": "انتهت مهلة الخادم أثناء انتظار الطلب."
+  },
+  "http451": {
+    "message": "الصفحة غير متاحة لأسباب قانونية."
+  },
+  "http502": {
+    "message": "تلقت إحدى البوابات ردًا غير صالح من خادم آخر."
+  },
+  "http503": {
+    "message": "الخدمة غير متاحة مؤقتًا."
+  },
+  "http504": {
+    "message": "لم تتلق البوابة ردًا في الوقت المحدد."
+  },
+  "consentTitle": {
+    "message": "السماح بطلبات فحص الروابط"
+  },
+  "consentDetail": {
+    "message": "يطلب Firefox موافقتك لإرسال روابط الصفحات أو عناوين الإشارات المرجعية إلى المواقع المعنية."
+  }
+}

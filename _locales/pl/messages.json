@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "Sprawdzaj odnośniki na stronach i w zakładkach, przeglądaj kody HTTP i eksportuj raporty CSV."
+  },
+  "localeName": {
+    "message": "Polski"
+  },
+  "reportTitle": {
+    "message": "Sprawdzanie odnośników"
+  },
+  "reportDocumentTitle": {
+    "message": "Sprawdzanie odnośników · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "Ustawienia"
+  },
+  "language": {
+    "message": "Język"
+  },
+  "theme": {
+    "message": "Wygląd"
+  },
+  "system": {
+    "message": "Systemowy"
+  },
+  "light": {
+    "message": "Jasny"
+  },
+  "dark": {
+    "message": "Ciemny"
+  },
+  "close": {
+    "message": "Zamknij"
+  },
+  "allowLoopback": {
+    "message": "Zezwalaj na lokalne odnośniki testowe"
+  },
+  "allowLoopbackDetail": {
+    "message": "Pozwala sprawdzać localhost, 127.0.0.1 i [::1] po udzieleniu dostępu. Przy zwykłych sprawdzeniach pozostaw tę opcję wyłączoną."
+  },
+  "currentPage": {
+    "message": "Bieżąca strona"
+  },
+  "sourcePage": {
+    "message": "Strona źródłowa"
+  },
+  "scanCurrentPage": {
+    "message": "Sprawdź bieżącą stronę"
+  },
+  "scan": {
+    "message": "Sprawdź"
+  },
+  "stop": {
+    "message": "Zatrzymaj"
+  },
+  "openReport": {
+    "message": "Otwórz ostatni raport"
+  },
+  "sourceUnavailable": {
+    "message": "Przejdź na kartę witryny, aby sprawdzić jej odnośniki."
+  },
+  "captureError": {
+    "message": "Nie udało się odczytać strony. Otwórz zwykłą stronę HTTP lub HTTPS i spróbuj ponownie."
+  },
+  "storageError": {
+    "message": "Nie udało się zapisać lub wczytać raportu. Odśwież kartę albo rozpocznij nowe sprawdzanie."
+  },
+  "settingsError": {
+    "message": "Nie udało się zapisać ustawień."
+  },
+  "openError": {
+    "message": "Nie udało się otworzyć karty raportu. Spróbuj ponownie."
+  },
+  "noReportTitle": {
+    "message": "Nie ma jeszcze raportu"
+  },
+  "noReportDetail": {
+    "message": "Otwórz witrynę i wybierz Sprawdź bieżącą stronę w menu rozszerzenia."
+  },
+  "reportUnavailable": {
+    "message": "Zapisany raport nie jest już dostępny."
+  },
+  "loading": {
+    "message": "Wczytywanie…"
+  },
+  "capturing": {
+    "message": "Odczytywanie odnośników…"
+  },
+  "statusOverview": {
+    "message": "Podsumowanie sprawdzania"
+  },
+  "totalLinks": {
+    "message": "Łączna liczba odnośników"
+  },
+  "working": {
+    "message": "Działa"
+  },
+  "missing": {
+    "message": "Nie znaleziono"
+  },
+  "redirect": {
+    "message": "Przekierowanie"
+  },
+  "uncertain": {
+    "message": "Niepewny"
+  },
+  "notChecked": {
+    "message": "Niesprawdzony"
+  },
+  "progress": {
+    "message": "Postęp sprawdzania"
+  },
+  "progressCount": {
+    "message": "Przetworzono $1 z $2"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "Gotowe do sprawdzenia"
+  },
+  "phaseRunning": {
+    "message": "Sprawdzanie odnośników"
+  },
+  "phaseFinished": {
+    "message": "Sprawdzanie zakończone"
+  },
+  "phaseStopped": {
+    "message": "Sprawdzanie zatrzymane"
+  },
+  "phaseInterrupted": {
+    "message": "Sprawdzanie przerwane"
+  },
+  "phaseDuplicate": {
+    "message": "Ten raport jest przetwarzany na innej karcie. Wyniki zostaną zaktualizowane po zakończeniu."
+  },
+  "listTitle": {
+    "message": "Wyniki sprawdzania"
+  },
+  "filter": {
+    "message": "Filtruj wyniki"
+  },
+  "allLinks": {
+    "message": "Wszystkie odnośniki"
+  },
+  "shownCount": {
+    "message": "Wyświetlono $1 z $2"
+  },
+  "urlColumn": {
+    "message": "URL odnośnika"
+  },
+  "statusColumn": {
+    "message": "Wynik"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "Szczegóły"
+  },
+  "categoryColumn": {
+    "message": "Kategoria"
+  },
+  "errorColumn": {
+    "message": "Błąd"
+  },
+  "redirectColumn": {
+    "message": "URL przekierowania"
+  },
+  "export": {
+    "message": "Eksportuj CSV"
+  },
+  "emptyLinks": {
+    "message": "Na tej stronie nie znaleziono odnośników HTTP ani HTTPS."
+  },
+  "emptyFilter": {
+    "message": "Żaden odnośnik nie pasuje do filtra."
+  },
+  "permissionTitle": {
+    "message": "Potrzebny dostęp do witryn"
+  },
+  "permissionDetail": {
+    "message": "Zezwól na dostęp do wymienionych hostów ($1), aby sprawdzić odnośniki. Bez dostępu pozostaną niesprawdzone."
+  },
+  "permissionHosts": {
+    "message": "Wyświetl listę hostów"
+  },
+  "grantAccess": {
+    "message": "Zezwól na dostęp"
+  },
+  "permissionDenied": {
+    "message": "Odmówiono dostępu. Odnośniki nadal są oznaczone jako niesprawdzone."
+  },
+  "permissionError": {
+    "message": "Przeglądarka nie mogła poprosić o dostęp. Sprawdź ustawienia dostępu rozszerzenia do witryn."
+  },
+  "captureLimited": {
+    "message": "Strona przekroczyła limit odczytu. W raporcie może brakować niektórych odnośników."
+  },
+  "scanLimited": {
+    "message": "Unikatowe odnośniki: $1. Limit sprawdzania: $2."
+  },
+  "reasonPermission": {
+    "message": "Nie udzielono dostępu do witryny."
+  },
+  "reasonPrivateHost": {
+    "message": "Pominięto adres lokalny lub prywatny."
+  },
+  "reasonTimeout": {
+    "message": "Przekroczono limit czasu żądania."
+  },
+  "reasonNetwork": {
+    "message": "Przeglądarka nie mogła połączyć się z adresem odnośnika."
+  },
+  "reasonHttpError": {
+    "message": "Nieoczekiwana odpowiedź HTTP ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "Przeglądarka nie ujawniła miejsca docelowego przekierowania."
+  },
+  "reasonStopped": {
+    "message": "Sprawdzanie zostało zatrzymane."
+  },
+  "reasonInterrupted": {
+    "message": "Kartę sprawdzania zamknięto lub przeładowano."
+  },
+  "reasonPending": {
+    "message": "Oczekuje na sprawdzenie."
+  },
+  "interruptedHint": {
+    "message": "Zapisane wyniki są dostępne. Wybierz Sprawdź, aby rozpocząć nowe sprawdzanie."
+  },
+  "previousPage": {
+    "message": "Poprzednia strona wyników"
+  },
+  "nextPage": {
+    "message": "Następna strona wyników"
+  },
+  "resultPages": {
+    "message": "Strona $1 z $2"
+  },
+  "redirectTo": {
+    "message": "Przekierowuje do"
+  },
+  "requestingAccess": {
+    "message": "Oczekiwanie na przeglądarkę…"
+  },
+  "noValue": {
+    "message": "Niedostępne"
+  },
+  "http401": {
+    "message": "Ta strona wymaga zalogowania."
+  },
+  "http403": {
+    "message": "Witryna odmówiła dostępu."
+  },
+  "http404": {
+    "message": "Nie odnaleziono strony."
+  },
+  "http410": {
+    "message": "Strona została usunięta."
+  },
+  "http429": {
+    "message": "Witryna ogranicza częstotliwość żądań."
+  },
+  "httpServerError": {
+    "message": "Serwer zwrócił błąd ($1)."
+  },
+  "scanBookmarks": {
+    "message": "Sprawdź zakładki"
+  },
+  "bookmarksTitle": {
+    "message": "Zakładki"
+  },
+  "bookmarksDenied": {
+    "message": "Odmówiono dostępu do zakładek."
+  },
+  "bookmarksError": {
+    "message": "Nie udało się odczytać zakładek."
+  },
+  "retrySelected": {
+    "message": "Sprawdź ponownie zaznaczone"
+  },
+  "selectLink": {
+    "message": "Zaznacz odnośnik do ponownego sprawdzenia: $1"
+  },
+  "selectVisible": {
+    "message": "Zaznacz odnośniki na tej stronie, które można sprawdzić ponownie"
+  },
+  "sourceColumn": {
+    "message": "Źródło"
+  },
+  "locateLink": {
+    "message": "Pokaż na stronie źródłowej"
+  },
+  "locateUnavailable": {
+    "message": "Nie udało się wyróżnić pierwotnego odnośnika. Otwórz stronę źródłową i sprawdź ją ponownie."
+  },
+  "networkDisclosure": {
+    "message": "Sprawdzenie odnośnika wysyła żądanie do jego witryny. Witryna może zobaczyć Twój adres IP i inne dane sieciowe."
+  },
+  "reasonUnsafeUrl": {
+    "message": "Pominięto, ponieważ adres może zawierać dane poufne."
+  },
+  "reasonDns": {
+    "message": "Nie udało się potwierdzić, że nazwa hosta jest publiczna."
+  },
+  "clearReports": {
+    "message": "Usuń zapisane raporty"
+  },
+  "reportsCleared": {
+    "message": "Zapisane raporty zostały usunięte."
+  },
+  "clearReportsConfirm": {
+    "message": "Usunąć wszystkie zapisane raporty i ich wyniki?"
+  },
+  "http400": {
+    "message": "Witryna nie mogła zrozumieć żądania."
+  },
+  "http405": {
+    "message": "Witryna nie obsługuje tej metody żądania."
+  },
+  "http408": {
+    "message": "Serwer przekroczył czas oczekiwania na żądanie."
+  },
+  "http451": {
+    "message": "Strona jest niedostępna z przyczyn prawnych."
+  },
+  "http502": {
+    "message": "Brama otrzymała nieprawidłową odpowiedź z innego serwera."
+  },
+  "http503": {
+    "message": "Usługa jest tymczasowo niedostępna."
+  },
+  "http504": {
+    "message": "Brama nie uzyskała odpowiedzi na czas."
+  },
+  "consentTitle": {
+    "message": "Zezwól na żądania sprawdzania odnośników"
+  },
+  "consentDetail": {
+    "message": "Firefox prosi o zgodę na wysłanie odnośników ze stron lub adresów zakładek do odpowiadających im witryn."
+  }
+}

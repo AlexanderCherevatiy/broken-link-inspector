@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "Prüfe Seitenlinks und Lesezeichen, sieh dir HTTP-Statuscodes an und exportiere Berichte als CSV."
+  },
+  "localeName": {
+    "message": "Deutsch"
+  },
+  "reportTitle": {
+    "message": "Linkprüfung"
+  },
+  "reportDocumentTitle": {
+    "message": "Linkprüfung · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "Einstellungen"
+  },
+  "language": {
+    "message": "Sprache"
+  },
+  "theme": {
+    "message": "Darstellung"
+  },
+  "system": {
+    "message": "System"
+  },
+  "light": {
+    "message": "Hell"
+  },
+  "dark": {
+    "message": "Dunkel"
+  },
+  "close": {
+    "message": "Schließen"
+  },
+  "allowLoopback": {
+    "message": "Lokale Testlinks zulassen"
+  },
+  "allowLoopbackDetail": {
+    "message": "Erlaubt die Prüfung von localhost, 127.0.0.1 und [::1] nach Freigabe durch den Browser. Für normale Prüfungen deaktiviert lassen."
+  },
+  "currentPage": {
+    "message": "Aktuelle Seite"
+  },
+  "sourcePage": {
+    "message": "Quellseite"
+  },
+  "scanCurrentPage": {
+    "message": "Aktuelle Seite prüfen"
+  },
+  "scan": {
+    "message": "Prüfen"
+  },
+  "stop": {
+    "message": "Stoppen"
+  },
+  "openReport": {
+    "message": "Letzten Bericht öffnen"
+  },
+  "sourceUnavailable": {
+    "message": "Wechsle zu einem Website-Tab, um dessen Links zu prüfen."
+  },
+  "captureError": {
+    "message": "Diese Seite konnte nicht gelesen werden. Öffne eine normale HTTP- oder HTTPS-Seite und versuche es erneut."
+  },
+  "storageError": {
+    "message": "Der Bericht konnte nicht gespeichert oder geladen werden. Lade den Tab neu oder starte eine neue Prüfung."
+  },
+  "settingsError": {
+    "message": "Deine Einstellungen konnten nicht gespeichert werden."
+  },
+  "openError": {
+    "message": "Der Bericht-Tab konnte nicht geöffnet werden. Versuche es erneut."
+  },
+  "noReportTitle": {
+    "message": "Noch kein Bericht"
+  },
+  "noReportDetail": {
+    "message": "Öffne eine Website und wähle im Menü der Erweiterung Aktuelle Seite prüfen."
+  },
+  "reportUnavailable": {
+    "message": "Dieser gespeicherte Bericht ist nicht mehr verfügbar."
+  },
+  "loading": {
+    "message": "Wird geladen …"
+  },
+  "capturing": {
+    "message": "Links werden gelesen …"
+  },
+  "statusOverview": {
+    "message": "Prüfübersicht"
+  },
+  "totalLinks": {
+    "message": "Links insgesamt"
+  },
+  "working": {
+    "message": "Erreichbar"
+  },
+  "missing": {
+    "message": "Nicht gefunden"
+  },
+  "redirect": {
+    "message": "Weiterleitung"
+  },
+  "uncertain": {
+    "message": "Unklar"
+  },
+  "notChecked": {
+    "message": "Nicht geprüft"
+  },
+  "progress": {
+    "message": "Prüffortschritt"
+  },
+  "progressCount": {
+    "message": "$1 von $2 verarbeitet"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "Bereit zur Prüfung"
+  },
+  "phaseRunning": {
+    "message": "Links werden geprüft"
+  },
+  "phaseFinished": {
+    "message": "Prüfung abgeschlossen"
+  },
+  "phaseStopped": {
+    "message": "Prüfung gestoppt"
+  },
+  "phaseInterrupted": {
+    "message": "Prüfung unterbrochen"
+  },
+  "phaseDuplicate": {
+    "message": "Dieser Bericht wird in einem anderen Tab geprüft. Die Ergebnisse werden danach aktualisiert."
+  },
+  "listTitle": {
+    "message": "Linkergebnisse"
+  },
+  "filter": {
+    "message": "Ergebnisse filtern"
+  },
+  "allLinks": {
+    "message": "Alle Links"
+  },
+  "shownCount": {
+    "message": "$1 von $2 angezeigt"
+  },
+  "urlColumn": {
+    "message": "Link-URL"
+  },
+  "statusColumn": {
+    "message": "Ergebnis"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "Details"
+  },
+  "categoryColumn": {
+    "message": "Kategorie"
+  },
+  "errorColumn": {
+    "message": "Fehler"
+  },
+  "redirectColumn": {
+    "message": "Ziel-URL der Weiterleitung"
+  },
+  "export": {
+    "message": "CSV exportieren"
+  },
+  "emptyLinks": {
+    "message": "Auf dieser Seite wurden keine HTTP- oder HTTPS-Links gefunden."
+  },
+  "emptyFilter": {
+    "message": "Keine Links entsprechen diesem Filter."
+  },
+  "permissionTitle": {
+    "message": "Website-Zugriff erforderlich"
+  },
+  "permissionDetail": {
+    "message": "Erlaube den Zugriff auf die aufgeführten Hosts ($1), um deren Links zu prüfen. Ohne Zugriff bleiben Links ungeprüft."
+  },
+  "permissionHosts": {
+    "message": "Hostliste anzeigen"
+  },
+  "grantAccess": {
+    "message": "Zugriff erlauben"
+  },
+  "permissionDenied": {
+    "message": "Der Zugriff wurde verweigert. Die betroffenen Links bleiben als nicht geprüft markiert."
+  },
+  "permissionError": {
+    "message": "Der Browser konnte keinen Zugriff anfordern. Prüfe die Website-Berechtigungen der Erweiterung."
+  },
+  "captureLimited": {
+    "message": "Die Seite überschreitet das Erfassungslimit. Im Bericht können Links fehlen."
+  },
+  "scanLimited": {
+    "message": "Eindeutige Links gefunden: $1. Prüflimit: $2."
+  },
+  "reasonPermission": {
+    "message": "Der Website-Zugriff wurde nicht gewährt."
+  },
+  "reasonPrivateHost": {
+    "message": "Lokale oder private Adresse übersprungen."
+  },
+  "reasonTimeout": {
+    "message": "Zeitlimit für die Anfrage überschritten."
+  },
+  "reasonNetwork": {
+    "message": "Der Browser konnte das Linkziel nicht erreichen."
+  },
+  "reasonHttpError": {
+    "message": "Unerwartete HTTP-Antwort ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "Der Browser hat das Weiterleitungsziel nicht angezeigt."
+  },
+  "reasonStopped": {
+    "message": "Die Prüfung wurde gestoppt."
+  },
+  "reasonInterrupted": {
+    "message": "Der Prüf-Tab wurde geschlossen oder neu geladen."
+  },
+  "reasonPending": {
+    "message": "Wartet auf Prüfung."
+  },
+  "interruptedHint": {
+    "message": "Gespeicherte Ergebnisse sind verfügbar. Wähle Prüfen, um eine neue Prüfung zu starten."
+  },
+  "previousPage": {
+    "message": "Vorherige Ergebnisseite"
+  },
+  "nextPage": {
+    "message": "Nächste Ergebnisseite"
+  },
+  "resultPages": {
+    "message": "Seite $1 von $2"
+  },
+  "redirectTo": {
+    "message": "Leitet weiter zu"
+  },
+  "requestingAccess": {
+    "message": "Wartet auf Browser …"
+  },
+  "noValue": {
+    "message": "Nicht verfügbar"
+  },
+  "http401": {
+    "message": "Diese Seite erfordert eine Anmeldung."
+  },
+  "http403": {
+    "message": "Die Website hat den Zugriff verweigert."
+  },
+  "http404": {
+    "message": "Die Seite wurde nicht gefunden."
+  },
+  "http410": {
+    "message": "Die Seite wurde entfernt."
+  },
+  "http429": {
+    "message": "Die Website begrenzt die Anzahl der Anfragen."
+  },
+  "httpServerError": {
+    "message": "Der Server meldete einen Fehler ($1)."
+  },
+  "scanBookmarks": {
+    "message": "Lesezeichen prüfen"
+  },
+  "bookmarksTitle": {
+    "message": "Lesezeichen"
+  },
+  "bookmarksDenied": {
+    "message": "Der Zugriff auf die Lesezeichen wurde abgelehnt."
+  },
+  "bookmarksError": {
+    "message": "Die Lesezeichen konnten nicht gelesen werden."
+  },
+  "retrySelected": {
+    "message": "Auswahl erneut prüfen"
+  },
+  "selectLink": {
+    "message": "Link zur erneuten Prüfung auswählen: $1"
+  },
+  "selectVisible": {
+    "message": "Links auf dieser Seite für eine erneute Prüfung auswählen"
+  },
+  "sourceColumn": {
+    "message": "Quelle"
+  },
+  "locateLink": {
+    "message": "Auf der Quellseite anzeigen"
+  },
+  "locateUnavailable": {
+    "message": "Der ursprüngliche Link konnte nicht hervorgehoben werden. Öffne die Quellseite und prüfe sie erneut."
+  },
+  "networkDisclosure": {
+    "message": "Eine Linkprüfung sendet eine Anfrage an die jeweilige Website. Diese kann deine IP-Adresse und andere Netzwerkdaten sehen."
+  },
+  "reasonUnsafeUrl": {
+    "message": "Übersprungen, da die Adresse vertrauliche Daten enthalten könnte."
+  },
+  "reasonDns": {
+    "message": "Der Hostname konnte nicht als öffentlich bestätigt werden."
+  },
+  "clearReports": {
+    "message": "Gespeicherte Berichte löschen"
+  },
+  "reportsCleared": {
+    "message": "Gespeicherte Berichte wurden gelöscht."
+  },
+  "clearReportsConfirm": {
+    "message": "Alle gespeicherten Berichte und ihre Ergebnisse löschen?"
+  },
+  "http400": {
+    "message": "Die Website konnte die Anfrage nicht verstehen."
+  },
+  "http405": {
+    "message": "Die Website erlaubt diese Anfragemethode nicht."
+  },
+  "http408": {
+    "message": "Das Zeitlimit des Servers beim Warten auf die Anfrage wurde überschritten."
+  },
+  "http451": {
+    "message": "Die Seite ist aus rechtlichen Gründen nicht verfügbar."
+  },
+  "http502": {
+    "message": "Ein Gateway erhielt eine ungültige Antwort von einem anderen Server."
+  },
+  "http503": {
+    "message": "Der Dienst ist vorübergehend nicht verfügbar."
+  },
+  "http504": {
+    "message": "Ein Gateway erhielt nicht rechtzeitig eine Antwort."
+  },
+  "consentTitle": {
+    "message": "Linkanfragen erlauben"
+  },
+  "consentDetail": {
+    "message": "Firefox bittet um Einwilligung, um Seitenlinks oder Lesezeichen-URLs an die jeweiligen Websites zu senden."
+  }
+}

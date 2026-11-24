@@ -1,0 +1,142 @@
+{
+  "ar": {
+    "catalog": "ar",
+    "name": "Broken Link Inspector",
+    "summary": "افحص روابط الصفحات والإشارات المرجعية، واعرض حالات HTTP، وصدّر التقارير بصيغة CSV.",
+    "description": "ابحث عن الروابط المعطّلة في الصفحة الحالية أو في الإشارات المرجعية. راجع نتائج HTTP مع شروح واضحة، وأعد فحص الروابط المحددة، واحفظ التقارير بصيغة CSV. تبقى التقارير في متصفحك. يرسل الفحص طلبًا إلى الموقع المستهدف الذي يمكنه رؤية عنوان IP الخاص بك. الإضافة مجانية ولا تتضمن أدوات تحليلات.",
+    "reviewStatus": "needs-human-review"
+  },
+  "de": {
+    "catalog": "de",
+    "name": "Broken Link Inspector",
+    "summary": "Prüfe Seitenlinks und Lesezeichen, sieh dir HTTP-Statuscodes an und exportiere Berichte als CSV.",
+    "description": "Finde defekte Links auf der aktuellen Seite oder in deinen Lesezeichen. Prüfe HTTP-Ergebnisse mit verständlichen Erklärungen, kontrolliere ausgewählte Links erneut und speichere einen CSV-Bericht. Berichte bleiben im Browser. Beim Prüfen erhält die Zielwebsite eine Anfrage und kann deine IP-Adresse sehen. Die Erweiterung ist kostenlos und enthält keine Analysefunktionen zur Nutzungsverfolgung.",
+    "reviewStatus": "needs-human-review"
+  },
+  "en": {
+    "catalog": "en",
+    "name": "Broken Link Inspector",
+    "summary": "Check page links and bookmarks, review HTTP statuses, and export reports as CSV.",
+    "description": "Find broken links on the current page or in your bookmarks. Review HTTP results with plain-language explanations, retry selected links, and save a CSV report. Reports stay in your browser. Checking a link sends a request to its destination, which can see your IP address. The extension is free and contains no analytics.",
+    "reviewStatus": "needs-human-review"
+  },
+  "es": {
+    "catalog": "es",
+    "name": "Broken Link Inspector",
+    "summary": "Comprueba enlaces de páginas y marcadores, consulta los estados HTTP y exporta informes CSV.",
+    "description": "Encuentra enlaces rotos en la página actual o en tus marcadores. Consulta los resultados HTTP con explicaciones claras, vuelve a comprobar enlaces seleccionados y guarda informes CSV. Los informes se quedan en el navegador. Al comprobar un enlace, el sitio de destino recibe una solicitud y puede ver tu IP. La extensión es gratuita y no incluye analítica.",
+    "reviewStatus": "needs-human-review"
+  },
+  "fr": {
+    "catalog": "fr",
+    "name": "Broken Link Inspector",
+    "summary": "Vérifiez les liens des pages et des marque-pages, consultez les codes HTTP et exportez les rapports en CSV.",
+    "description": "Repérez les liens rompus sur la page actuelle ou dans vos marque-pages. Consultez les résultats HTTP accompagnés d’explications simples, revérifiez les liens sélectionnés et enregistrez un rapport CSV. Les rapports restent dans le navigateur. Chaque vérification envoie une requête au site cible, qui peut voir votre adresse IP. L’extension est gratuite et ne comporte aucun dispositif d’analyse d’usage.",
+    "reviewStatus": "needs-human-review"
+  },
+  "hi": {
+    "catalog": "hi",
+    "name": "Broken Link Inspector",
+    "summary": "पेज और बुकमार्क के लिंक जाँचें, HTTP स्थिति देखें और रिपोर्ट CSV में निर्यात करें।",
+    "description": "मौजूदा पेज या बुकमार्क में टूटे हुए लिंक ढूँढें। आसान स्पष्टीकरण के साथ HTTP नतीजे देखें, चुने हुए लिंक दोबारा जाँचें और CSV रिपोर्ट सहेजें। रिपोर्ट आपके ब्राउज़र में रहती हैं। जाँच का अनुरोध लिंक की साइट को जाता है, जो आपका IP पता देख सकती है। एक्सटेंशन मुफ़्त है और इसमें इस्तेमाल का विश्लेषण नहीं होता।",
+    "reviewStatus": "needs-human-review"
+  },
+  "id": {
+    "catalog": "id",
+    "name": "Broken Link Inspector",
+    "summary": "Periksa tautan halaman dan markah, lihat status HTTP, lalu ekspor laporan sebagai CSV.",
+    "description": "Temukan tautan rusak pada halaman saat ini atau di markah. Lihat hasil HTTP dengan penjelasan yang mudah dipahami, periksa ulang tautan yang dipilih, dan simpan laporan CSV. Laporan tetap di peramban. Pemeriksaan mengirim permintaan ke situs tujuan, yang dapat melihat alamat IP Anda. Ekstensi ini gratis dan tidak menyertakan analitik penggunaan.",
+    "reviewStatus": "needs-human-review"
+  },
+  "it": {
+    "catalog": "it",
+    "name": "Broken Link Inspector",
+    "summary": "Controlla i link delle pagine e dei segnalibri, consulta gli stati HTTP ed esporta i report in CSV.",
+    "description": "Trova link non funzionanti nella pagina corrente o nei segnalibri. Consulta i risultati HTTP con spiegazioni chiare, ricontrolla i link selezionati e salva un report CSV. I report rimangono nel browser. La verifica invia una richiesta al sito di destinazione, che può vedere il tuo indirizzo IP. L’estensione è gratuita e non include strumenti di analisi dell’utilizzo.",
+    "reviewStatus": "needs-human-review"
+  },
+  "ja": {
+    "catalog": "ja",
+    "name": "Broken Link Inspector",
+    "summary": "ページとブックマークのリンクを確認し、HTTP ステータスを調べて、結果を CSV に書き出せます。",
+    "description": "現在のページやブックマークからリンク切れを探せます。HTTP の結果をわかりやすい説明付きで確認し、選んだリンクを再検査して CSV レポートとして保存できます。レポートはブラウザー内に保持されます。検査のリクエストはリンク先に送信され、サイトは IP アドレスを確認できます。無料で利用でき、利用状況の分析機能はありません。\n\nサイトへのアクセス権限は、確認したいホストに対して必要になった時点で要求します。権限を許可しなかったリンクは未確認と表示されます。アクセス拒否、リクエスト制限、タイムアウト、一時的なサーバー障害は「不明」に分類します。リンクが元のページに残っていれば、レポートからその位置に移動して強調表示できます。検査を停止しても、完了した結果は確認できます。",
+    "reviewStatus": "needs-human-review"
+  },
+  "ko": {
+    "catalog": "ko",
+    "name": "Broken Link Inspector",
+    "summary": "페이지와 북마크의 링크를 검사하고 HTTP 상태를 확인한 후 보고서를 CSV로 내보냅니다.",
+    "description": "현재 페이지나 북마크에서 끊어진 링크를 찾으세요. 쉬운 설명과 함께 HTTP 결과를 확인하고 선택한 링크를 다시 검사한 뒤 CSV 보고서를 저장할 수 있습니다. 보고서는 브라우저에 남습니다. 검사는 대상 사이트에 요청을 보내므로 사이트에서 IP 주소를 볼 수 있습니다. 무료 확장 프로그램이며 사용 분석 기능이 없습니다.\n\n링크 검사에 필요한 사이트 접근 권한은 해당 호스트를 검사할 때 요청합니다. 접근을 허용하지 않은 링크는 검사하지 않은 상태로 표시합니다. 접근 거부, 요청 제한, 시간 초과, 일시적인 서버 오류는 불확실로 분류합니다. 원래 페이지에 링크가 남아 있으면 보고서에서 해당 위치로 이동하여 강조할 수 있습니다. 검사를 중지한 뒤에도 이미 완료된 결과를 볼 수 있습니다.",
+    "reviewStatus": "needs-human-review"
+  },
+  "nl": {
+    "catalog": "nl",
+    "name": "Broken Link Inspector",
+    "summary": "Controleer links op pagina’s en in bladwijzers, bekijk HTTP-statuscodes en exporteer rapporten als CSV.",
+    "description": "Vind gebroken links op de huidige pagina of in je bladwijzers. Bekijk HTTP-resultaten met duidelijke uitleg, controleer geselecteerde links opnieuw en sla een CSV-rapport op. Rapporten blijven in je browser. Een controle stuurt een verzoek naar de doelsite, die je IP-adres kan zien. De extensie is gratis en bevat geen gebruiksanalyses.",
+    "reviewStatus": "needs-human-review"
+  },
+  "pl": {
+    "catalog": "pl",
+    "name": "Broken Link Inspector",
+    "summary": "Sprawdzaj odnośniki na stronach i w zakładkach, przeglądaj kody HTTP i eksportuj raporty CSV.",
+    "description": "Znajdź niedziałające odnośniki na bieżącej stronie lub w zakładkach. Przejrzyj odpowiedzi HTTP z prostymi wyjaśnieniami, sprawdź ponownie wybrane odnośniki i zapisz raport CSV. Raporty pozostają w przeglądarce. Witryna docelowa otrzymuje żądanie i może zobaczyć Twój adres IP. Rozszerzenie jest bezpłatne i nie zawiera analityki użytkowania.",
+    "reviewStatus": "needs-human-review"
+  },
+  "pt-BR": {
+    "catalog": "pt_BR",
+    "name": "Broken Link Inspector",
+    "summary": "Verifique links de páginas e favoritos, consulte os códigos HTTP e exporte relatórios em CSV.",
+    "description": "Encontre links quebrados na página atual ou nos favoritos. Consulte resultados HTTP com explicações claras, verifique novamente links selecionados e salve relatórios em CSV. Os relatórios ficam no navegador. Ao verificar um link, a solicitação é enviada ao site de destino, que pode ver seu endereço IP. A extensão é gratuita e não inclui ferramentas de análise de uso.",
+    "reviewStatus": "needs-human-review"
+  },
+  "ru": {
+    "catalog": "ru",
+    "name": "Broken Link Inspector",
+    "summary": "Проверяйте ссылки на страницах и в закладках, смотрите статусы HTTP и экспортируйте отчёты в CSV.",
+    "description": "Проверяйте ссылки на текущей странице или в закладках. Смотрите статусы HTTP с понятными объяснениями, повторно проверяйте выбранные ссылки и сохраняйте отчёт в CSV. Отчёты остаются в браузере. При проверке сайт получает запрос и может увидеть ваш IP-адрес. Расширение бесплатно и не содержит аналитики.",
+    "reviewStatus": "needs-human-review"
+  },
+  "th": {
+    "catalog": "th",
+    "name": "Broken Link Inspector",
+    "summary": "ตรวจสอบลิงก์บนหน้าเว็บและบุ๊กมาร์ก ดูสถานะ HTTP และส่งออกรายงานเป็น CSV",
+    "description": "ค้นหาลิงก์เสียในหน้าปัจจุบันหรือบุ๊กมาร์ก ดูผล HTTP พร้อมคำอธิบายที่เข้าใจง่าย ตรวจสอบลิงก์ที่เลือกอีกครั้ง และบันทึกรายงาน CSV รายงานจะอยู่ในเบราว์เซอร์ของคุณ การตรวจสอบจะส่งคำขอไปยังเว็บไซต์ปลายทาง ซึ่งสามารถเห็นที่อยู่ IP ของคุณได้ ส่วนขยายนี้ใช้งานได้ฟรีและไม่มีระบบวิเคราะห์การใช้งาน",
+    "reviewStatus": "needs-human-review"
+  },
+  "tr": {
+    "catalog": "tr",
+    "name": "Broken Link Inspector",
+    "summary": "Sayfa bağlantılarını ve yer imlerini denetleyin, HTTP durumlarını görün ve raporları CSV olarak dışa aktarın.",
+    "description": "Geçerli sayfada veya yer imlerinde çalışmayan bağlantıları bulun. Açıklamalı HTTP sonuçlarını görüntüleyin, seçilen bağlantıları yeniden denetleyin ve CSV raporu kaydedin. Raporlar tarayıcınızda kalır. Denetim hedef siteye bir istek gönderir ve site IP adresinizi görebilir. Uzantı ücretsizdir ve kullanım analizi içermez.",
+    "reviewStatus": "needs-human-review"
+  },
+  "uk": {
+    "catalog": "uk",
+    "name": "Broken Link Inspector",
+    "summary": "Перевіряйте посилання на сторінках і в закладках, переглядайте коди HTTP й експортуйте звіти в CSV.",
+    "description": "Знаходьте непрацюючі посилання на поточній сторінці або в закладках. Переглядайте результати HTTP зі зрозумілими поясненнями, повторно перевіряйте вибрані посилання та зберігайте звіти у CSV. Звіти залишаються в браузері. Сайт отримує запит і може побачити вашу IP-адресу. Розширення безкоштовне й не містить засобів аналітики.",
+    "reviewStatus": "needs-human-review"
+  },
+  "vi": {
+    "catalog": "vi",
+    "name": "Broken Link Inspector",
+    "summary": "Kiểm tra liên kết trên trang và trong dấu trang, xem trạng thái HTTP và xuất báo cáo CSV.",
+    "description": "Tìm liên kết hỏng trên trang hiện tại hoặc trong dấu trang. Xem kết quả HTTP với giải thích rõ ràng, kiểm tra lại các liên kết đã chọn và lưu báo cáo CSV. Báo cáo nằm trong trình duyệt. Việc kiểm tra gửi yêu cầu đến trang đích, nơi có thể thấy địa chỉ IP của bạn. Tiện ích miễn phí và không có công cụ phân tích mức sử dụng.",
+    "reviewStatus": "needs-human-review"
+  },
+  "zh-CN": {
+    "catalog": "zh_CN",
+    "name": "Broken Link Inspector",
+    "summary": "检查网页和书签中的链接，查看 HTTP 状态，并将报告导出为 CSV。",
+    "description": "查找当前页面或书签中的失效链接。查看带有通俗解释的 HTTP 结果，重新检查选定的链接，并将报告保存为 CSV。报告保存在浏览器中。检查时会向目标网站发送请求，该网站可以看到你的 IP 地址。此扩展免费，不含使用情况分析。\n\n扩展只在检查需要时请求访问相应主机。未授权的链接标记为未检查。访问被拒绝、请求过多、连接超时或服务器暂时不可用的结果均列为不确定。报告会显示链接的来源页面。如果原始标签页仍然打开、页面没有变化且原始链接仍可访问，可以直接从报告定位并突出显示该链接。你也可以随时停止检查，查看已完成的结果，或清除保存在本机的报告。此扩展提供浅色、深色和跟随系统三种主题，并支持多种界面语言。",
+    "reviewStatus": "needs-human-review"
+  },
+  "zh-TW": {
+    "catalog": "zh_TW",
+    "name": "Broken Link Inspector",
+    "summary": "檢查網頁和書籤中的連結、查看 HTTP 狀態，並將報告匯出為 CSV。",
+    "description": "找出目前頁面或書籤中的失效連結。查看附有易懂說明的 HTTP 結果、重新檢查所選連結，並將報告儲存為 CSV。報告保留在瀏覽器內。檢查會向目標網站傳送要求，該網站可以看到你的 IP 位址。這個擴充功能免費，沒有使用情況分析功能。\n\n擴充功能只會在檢查需要時要求存取對應的主機。未獲授權的連結標記為未檢查。存取遭拒、請求過多、連線逾時或伺服器暫時無法使用的結果都會列為不確定。報告會顯示連結的來源頁面。如果原始分頁仍開啟、頁面沒有變更，且原始連結仍可存取，便能從報告找到該連結並醒目提示。你也可以隨時停止檢查、查看已完成的結果，或清除保存在本機的報告。這個擴充功能有淺色、深色及跟隨系統三種主題，並支援多種介面語言。",
+    "reviewStatus": "needs-human-review"
+  }
+}

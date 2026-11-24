@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "ตรวจสอบลิงก์บนหน้าเว็บและบุ๊กมาร์ก ดูสถานะ HTTP และส่งออกรายงานเป็น CSV"
+  },
+  "localeName": {
+    "message": "ไทย"
+  },
+  "reportTitle": {
+    "message": "การตรวจสอบลิงก์"
+  },
+  "reportDocumentTitle": {
+    "message": "การตรวจสอบลิงก์ · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "การตั้งค่า"
+  },
+  "language": {
+    "message": "ภาษา"
+  },
+  "theme": {
+    "message": "รูปลักษณ์"
+  },
+  "system": {
+    "message": "ตามระบบ"
+  },
+  "light": {
+    "message": "สว่าง"
+  },
+  "dark": {
+    "message": "มืด"
+  },
+  "close": {
+    "message": "ปิด"
+  },
+  "allowLoopback": {
+    "message": "อนุญาตลิงก์ทดสอบในเครื่อง"
+  },
+  "allowLoopbackDetail": {
+    "message": "ตรวจสอบ localhost, 127.0.0.1 และ [::1] ได้เมื่ออนุญาตในเบราว์เซอร์ ควรปิดไว้เมื่อตรวจสอบตามปกติ"
+  },
+  "currentPage": {
+    "message": "หน้าปัจจุบัน"
+  },
+  "sourcePage": {
+    "message": "หน้าต้นทาง"
+  },
+  "scanCurrentPage": {
+    "message": "ตรวจสอบหน้าปัจจุบัน"
+  },
+  "scan": {
+    "message": "ตรวจสอบ"
+  },
+  "stop": {
+    "message": "หยุด"
+  },
+  "openReport": {
+    "message": "เปิดรายงานล่าสุด"
+  },
+  "sourceUnavailable": {
+    "message": "สลับไปยังแท็บเว็บไซต์เพื่อตรวจสอบลิงก์"
+  },
+  "captureError": {
+    "message": "อ่านหน้านี้ไม่ได้ เปิดหน้า HTTP หรือ HTTPS ทั่วไปแล้วลองอีกครั้ง"
+  },
+  "storageError": {
+    "message": "บันทึกหรือโหลดรายงานไม่ได้ โหลดแท็บนี้ใหม่หรือเริ่มตรวจสอบใหม่"
+  },
+  "settingsError": {
+    "message": "บันทึกการตั้งค่าไม่ได้"
+  },
+  "openError": {
+    "message": "เปิดแท็บรายงานไม่ได้ โปรดลองอีกครั้ง"
+  },
+  "noReportTitle": {
+    "message": "ยังไม่มีรายงาน"
+  },
+  "noReportDetail": {
+    "message": "เปิดเว็บไซต์ แล้วเลือกตรวจสอบหน้าปัจจุบันจากเมนูส่วนขยาย"
+  },
+  "reportUnavailable": {
+    "message": "รายงานที่บันทึกไว้นี้ไม่พร้อมใช้งานแล้ว"
+  },
+  "loading": {
+    "message": "กำลังโหลด…"
+  },
+  "capturing": {
+    "message": "กำลังอ่านลิงก์…"
+  },
+  "statusOverview": {
+    "message": "สรุปการตรวจสอบ"
+  },
+  "totalLinks": {
+    "message": "ลิงก์ทั้งหมด"
+  },
+  "working": {
+    "message": "ใช้งานได้"
+  },
+  "missing": {
+    "message": "ไม่พบ"
+  },
+  "redirect": {
+    "message": "เปลี่ยนเส้นทาง"
+  },
+  "uncertain": {
+    "message": "ไม่แน่ชัด"
+  },
+  "notChecked": {
+    "message": "ยังไม่ได้ตรวจสอบ"
+  },
+  "progress": {
+    "message": "ความคืบหน้าในการตรวจสอบ"
+  },
+  "progressCount": {
+    "message": "ประมวลผลแล้ว $1 จาก $2"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "พร้อมตรวจสอบ"
+  },
+  "phaseRunning": {
+    "message": "กำลังตรวจสอบลิงก์"
+  },
+  "phaseFinished": {
+    "message": "ตรวจสอบเสร็จแล้ว"
+  },
+  "phaseStopped": {
+    "message": "หยุดการตรวจสอบแล้ว"
+  },
+  "phaseInterrupted": {
+    "message": "การตรวจสอบถูกขัดจังหวะ"
+  },
+  "phaseDuplicate": {
+    "message": "กำลังตรวจสอบรายงานนี้ในแท็บอื่น ผลลัพธ์จะอัปเดตเมื่อเสร็จสิ้น"
+  },
+  "listTitle": {
+    "message": "ผลการตรวจสอบลิงก์"
+  },
+  "filter": {
+    "message": "กรองผลลัพธ์"
+  },
+  "allLinks": {
+    "message": "ลิงก์ทั้งหมด"
+  },
+  "shownCount": {
+    "message": "แสดง $1 จาก $2"
+  },
+  "urlColumn": {
+    "message": "URL ของลิงก์"
+  },
+  "statusColumn": {
+    "message": "ผลลัพธ์"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "รายละเอียด"
+  },
+  "categoryColumn": {
+    "message": "หมวดหมู่"
+  },
+  "errorColumn": {
+    "message": "ข้อผิดพลาด"
+  },
+  "redirectColumn": {
+    "message": "URL ปลายทางที่เปลี่ยนเส้นทาง"
+  },
+  "export": {
+    "message": "ส่งออก CSV"
+  },
+  "emptyLinks": {
+    "message": "ไม่พบลิงก์ HTTP หรือ HTTPS ในหน้านี้"
+  },
+  "emptyFilter": {
+    "message": "ไม่มีลิงก์ตรงกับตัวกรองนี้"
+  },
+  "permissionTitle": {
+    "message": "ต้องได้รับสิทธิ์เข้าถึงเว็บไซต์"
+  },
+  "permissionDetail": {
+    "message": "อนุญาตให้เข้าถึงโฮสต์ที่อยู่ในรายการ $1 รายการเพื่อตรวจสอบลิงก์ ลิงก์ที่ไม่ได้รับสิทธิ์จะไม่ถูกตรวจสอบ"
+  },
+  "permissionHosts": {
+    "message": "ดูรายชื่อโฮสต์"
+  },
+  "grantAccess": {
+    "message": "อนุญาตการเข้าถึง"
+  },
+  "permissionDenied": {
+    "message": "การเข้าถึงถูกปฏิเสธ ลิงก์ที่เกี่ยวข้องยังคงมีสถานะว่ายังไม่ได้ตรวจสอบ"
+  },
+  "permissionError": {
+    "message": "เบราว์เซอร์ขอสิทธิ์เข้าถึงไม่ได้ ตรวจสอบการตั้งค่าสิทธิ์เข้าถึงเว็บไซต์ของส่วนขยาย"
+  },
+  "captureLimited": {
+    "message": "หน้าเกินขีดจำกัดการดึงลิงก์ รายงานอาจขาดลิงก์บางรายการ"
+  },
+  "scanLimited": {
+    "message": "พบลิงก์ไม่ซ้ำ $1 รายการ ขีดจำกัดการตรวจสอบ $2 รายการ"
+  },
+  "reasonPermission": {
+    "message": "ไม่ได้รับสิทธิ์เข้าถึงเว็บไซต์"
+  },
+  "reasonPrivateHost": {
+    "message": "ข้ามที่อยู่ในเครื่องหรือเครือข่ายส่วนตัว"
+  },
+  "reasonTimeout": {
+    "message": "คำขอหมดเวลา"
+  },
+  "reasonNetwork": {
+    "message": "เบราว์เซอร์เข้าถึงลิงก์ไม่ได้"
+  },
+  "reasonHttpError": {
+    "message": "ได้รับการตอบกลับ HTTP ที่ไม่คาดไว้ ($1)"
+  },
+  "reasonRedirectHidden": {
+    "message": "เบราว์เซอร์ไม่แสดงปลายทางของการเปลี่ยนเส้นทาง"
+  },
+  "reasonStopped": {
+    "message": "หยุดการตรวจสอบแล้ว"
+  },
+  "reasonInterrupted": {
+    "message": "แท็บการตรวจสอบถูกปิดหรือโหลดใหม่"
+  },
+  "reasonPending": {
+    "message": "รอตรวจสอบ"
+  },
+  "interruptedHint": {
+    "message": "มีผลลัพธ์ที่บันทึกไว้ เลือกตรวจสอบเพื่อเริ่มตรวจสอบใหม่"
+  },
+  "previousPage": {
+    "message": "หน้าผลลัพธ์ก่อนหน้า"
+  },
+  "nextPage": {
+    "message": "หน้าผลลัพธ์ถัดไป"
+  },
+  "resultPages": {
+    "message": "หน้า $1 จาก $2"
+  },
+  "redirectTo": {
+    "message": "เปลี่ยนเส้นทางไปยัง"
+  },
+  "requestingAccess": {
+    "message": "กำลังรอเบราว์เซอร์…"
+  },
+  "noValue": {
+    "message": "ไม่พร้อมใช้งาน"
+  },
+  "http401": {
+    "message": "ต้องเข้าสู่ระบบเพื่อดูหน้านี้"
+  },
+  "http403": {
+    "message": "เว็บไซต์ปฏิเสธการเข้าถึง"
+  },
+  "http404": {
+    "message": "ไม่พบหน้าเว็บ"
+  },
+  "http410": {
+    "message": "หน้าเว็บถูกนำออกแล้ว"
+  },
+  "http429": {
+    "message": "เว็บไซต์กำลังจำกัดอัตราการส่งคำขอ"
+  },
+  "httpServerError": {
+    "message": "เซิร์ฟเวอร์ส่งข้อผิดพลาดกลับมา ($1)"
+  },
+  "scanBookmarks": {
+    "message": "ตรวจสอบบุ๊กมาร์ก"
+  },
+  "bookmarksTitle": {
+    "message": "บุ๊กมาร์ก"
+  },
+  "bookmarksDenied": {
+    "message": "การเข้าถึงบุ๊กมาร์กถูกปฏิเสธ"
+  },
+  "bookmarksError": {
+    "message": "อ่านบุ๊กมาร์กไม่ได้"
+  },
+  "retrySelected": {
+    "message": "ตรวจสอบรายการที่เลือกอีกครั้ง"
+  },
+  "selectLink": {
+    "message": "เลือกลิงก์เพื่อตรวจสอบอีกครั้ง: $1"
+  },
+  "selectVisible": {
+    "message": "เลือกลิงก์ในหน้านี้ที่ตรวจสอบซ้ำได้"
+  },
+  "sourceColumn": {
+    "message": "แหล่งที่มา"
+  },
+  "locateLink": {
+    "message": "แสดงบนหน้าต้นทาง"
+  },
+  "locateUnavailable": {
+    "message": "ไม่สามารถเน้นลิงก์เดิมได้ เปิดหน้าต้นทางแล้วตรวจสอบอีกครั้ง"
+  },
+  "networkDisclosure": {
+    "message": "การตรวจสอบลิงก์จะส่งคำขอไปยังเว็บไซต์ปลายทาง เว็บไซต์สามารถเห็นที่อยู่ IP และข้อมูลเครือข่ายอื่นของคุณ"
+  },
+  "reasonUnsafeUrl": {
+    "message": "ข้ามเนื่องจากที่อยู่อาจมีข้อมูลที่ละเอียดอ่อน"
+  },
+  "reasonDns": {
+    "message": "ไม่สามารถยืนยันได้ว่าชื่อโฮสต์เป็นที่อยู่สาธารณะ"
+  },
+  "clearReports": {
+    "message": "ล้างรายงานที่บันทึกไว้"
+  },
+  "reportsCleared": {
+    "message": "ล้างรายงานที่บันทึกไว้แล้ว"
+  },
+  "clearReportsConfirm": {
+    "message": "ล้างรายงานที่บันทึกไว้ทั้งหมดและผลลัพธ์ด้วยหรือไม่"
+  },
+  "http400": {
+    "message": "เว็บไซต์ไม่เข้าใจคำขอ"
+  },
+  "http405": {
+    "message": "เว็บไซต์ไม่อนุญาตวิธีส่งคำขอนี้"
+  },
+  "http408": {
+    "message": "เซิร์ฟเวอร์รอคำขอจนหมดเวลา"
+  },
+  "http451": {
+    "message": "หน้าเว็บไม่พร้อมใช้งานด้วยเหตุผลทางกฎหมาย"
+  },
+  "http502": {
+    "message": "เกตเวย์ได้รับการตอบกลับที่ไม่ถูกต้องจากเซิร์ฟเวอร์อื่น"
+  },
+  "http503": {
+    "message": "บริการไม่พร้อมใช้งานชั่วคราว"
+  },
+  "http504": {
+    "message": "เกตเวย์ไม่ได้รับการตอบกลับภายในเวลาที่กำหนด"
+  },
+  "consentTitle": {
+    "message": "อนุญาตคำขอเพื่อตรวจสอบลิงก์"
+  },
+  "consentDetail": {
+    "message": "Firefox ขอความยินยอมเพื่อส่งลิงก์ของหน้าเว็บหรือ URL ของบุ๊กมาร์กไปยังเว็บไซต์ที่เกี่ยวข้อง"
+  }
+}

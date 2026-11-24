@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "Проверяйте ссылки на страницах и в закладках, смотрите статусы HTTP и экспортируйте отчёты в CSV."
+  },
+  "localeName": {
+    "message": "Русский"
+  },
+  "reportTitle": {
+    "message": "Проверка ссылок"
+  },
+  "reportDocumentTitle": {
+    "message": "Проверка ссылок · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "language": {
+    "message": "Язык"
+  },
+  "theme": {
+    "message": "Оформление"
+  },
+  "system": {
+    "message": "Системная"
+  },
+  "light": {
+    "message": "Светлая"
+  },
+  "dark": {
+    "message": "Тёмная"
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "allowLoopback": {
+    "message": "Разрешить локальные тестовые ссылки"
+  },
+  "allowLoopbackDetail": {
+    "message": "Позволяет проверять localhost, 127.0.0.1 и [::1] после выдачи доступа в браузере. Для обычных проверок оставьте настройку выключенной."
+  },
+  "currentPage": {
+    "message": "Текущая страница"
+  },
+  "sourcePage": {
+    "message": "Исходная страница"
+  },
+  "scanCurrentPage": {
+    "message": "Проверить текущую страницу"
+  },
+  "scan": {
+    "message": "Проверить"
+  },
+  "stop": {
+    "message": "Остановить"
+  },
+  "openReport": {
+    "message": "Открыть последний отчёт"
+  },
+  "sourceUnavailable": {
+    "message": "Перейдите на вкладку сайта, чтобы проверить ссылки."
+  },
+  "captureError": {
+    "message": "Не удалось прочитать страницу. Откройте обычную страницу HTTP или HTTPS и попробуйте снова."
+  },
+  "storageError": {
+    "message": "Не удалось сохранить или загрузить отчёт. Обновите вкладку или запустите новую проверку."
+  },
+  "settingsError": {
+    "message": "Не удалось сохранить настройки."
+  },
+  "openError": {
+    "message": "Не удалось открыть вкладку отчёта. Попробуйте снова."
+  },
+  "noReportTitle": {
+    "message": "Отчётов пока нет"
+  },
+  "noReportDetail": {
+    "message": "Откройте сайт и выберите «Проверить текущую страницу» в меню расширения."
+  },
+  "reportUnavailable": {
+    "message": "Этот сохранённый отчёт больше недоступен."
+  },
+  "loading": {
+    "message": "Загрузка…"
+  },
+  "capturing": {
+    "message": "Читаем ссылки…"
+  },
+  "statusOverview": {
+    "message": "Сводка проверки"
+  },
+  "totalLinks": {
+    "message": "Всего ссылок"
+  },
+  "working": {
+    "message": "Работает"
+  },
+  "missing": {
+    "message": "Не найдена"
+  },
+  "redirect": {
+    "message": "Перенаправление"
+  },
+  "uncertain": {
+    "message": "Неясно"
+  },
+  "notChecked": {
+    "message": "Не проверена"
+  },
+  "progress": {
+    "message": "Ход проверки"
+  },
+  "progressCount": {
+    "message": "Обработано $1 из $2"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "Готово к проверке"
+  },
+  "phaseRunning": {
+    "message": "Проверяем ссылки"
+  },
+  "phaseFinished": {
+    "message": "Проверка завершена"
+  },
+  "phaseStopped": {
+    "message": "Проверка остановлена"
+  },
+  "phaseInterrupted": {
+    "message": "Проверка прервана"
+  },
+  "phaseDuplicate": {
+    "message": "Этот отчёт проверяется в другой вкладке. Результаты обновятся после завершения проверки."
+  },
+  "listTitle": {
+    "message": "Результаты проверки"
+  },
+  "filter": {
+    "message": "Фильтр результатов"
+  },
+  "allLinks": {
+    "message": "Все ссылки"
+  },
+  "shownCount": {
+    "message": "Показано $1 из $2"
+  },
+  "urlColumn": {
+    "message": "Адрес ссылки"
+  },
+  "statusColumn": {
+    "message": "Результат"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "Подробности"
+  },
+  "categoryColumn": {
+    "message": "Категория"
+  },
+  "errorColumn": {
+    "message": "Ошибка"
+  },
+  "redirectColumn": {
+    "message": "Адрес перенаправления"
+  },
+  "export": {
+    "message": "Скачать CSV"
+  },
+  "emptyLinks": {
+    "message": "На странице нет ссылок HTTP или HTTPS."
+  },
+  "emptyFilter": {
+    "message": "Нет ссылок, соответствующих фильтру."
+  },
+  "permissionTitle": {
+    "message": "Нужен доступ к сайтам"
+  },
+  "permissionDetail": {
+    "message": "Разрешите доступ к указанным адресам ($1), чтобы проверить ссылки. Без доступа ссылки останутся непроверенными."
+  },
+  "permissionHosts": {
+    "message": "Посмотреть список адресов"
+  },
+  "grantAccess": {
+    "message": "Разрешить доступ"
+  },
+  "permissionDenied": {
+    "message": "Доступ отклонён. Эти ссылки по-прежнему помечены как непроверенные."
+  },
+  "permissionError": {
+    "message": "Браузер не смог запросить доступ. Проверьте настройки доступа расширения к сайтам."
+  },
+  "captureLimited": {
+    "message": "Страница превысила лимит извлечения. Некоторые ссылки могли не попасть в отчёт."
+  },
+  "scanLimited": {
+    "message": "Найдено уникальных ссылок: $1. Лимит проверки: $2."
+  },
+  "reasonPermission": {
+    "message": "Доступ к сайту не предоставлен."
+  },
+  "reasonPrivateHost": {
+    "message": "Локальный или частный адрес пропущен."
+  },
+  "reasonTimeout": {
+    "message": "Истекло время ожидания ответа."
+  },
+  "reasonNetwork": {
+    "message": "Браузер не смог открыть адрес ссылки."
+  },
+  "reasonHttpError": {
+    "message": "Неожиданный ответ HTTP ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "Браузер не показал адрес перенаправления."
+  },
+  "reasonStopped": {
+    "message": "Проверка остановлена."
+  },
+  "reasonInterrupted": {
+    "message": "Вкладка проверки была закрыта или перезагружена."
+  },
+  "reasonPending": {
+    "message": "Ожидает проверки."
+  },
+  "interruptedHint": {
+    "message": "Сохранённые результаты доступны. Нажмите «Проверить», чтобы начать новую проверку."
+  },
+  "previousPage": {
+    "message": "Предыдущая страница результатов"
+  },
+  "nextPage": {
+    "message": "Следующая страница результатов"
+  },
+  "resultPages": {
+    "message": "Страница $1 из $2"
+  },
+  "redirectTo": {
+    "message": "Перенаправляет на"
+  },
+  "requestingAccess": {
+    "message": "Ожидаем браузер…"
+  },
+  "noValue": {
+    "message": "Недоступно"
+  },
+  "http401": {
+    "message": "Для просмотра страницы нужно войти в аккаунт."
+  },
+  "http403": {
+    "message": "Сайт отказал в доступе."
+  },
+  "http404": {
+    "message": "Страница не найдена."
+  },
+  "http410": {
+    "message": "Страница удалена."
+  },
+  "http429": {
+    "message": "Сайт ограничивает частоту запросов."
+  },
+  "httpServerError": {
+    "message": "Сервер вернул ошибку ($1)."
+  },
+  "scanBookmarks": {
+    "message": "Проверить закладки"
+  },
+  "bookmarksTitle": {
+    "message": "Закладки"
+  },
+  "bookmarksDenied": {
+    "message": "Доступ к закладкам отклонён."
+  },
+  "bookmarksError": {
+    "message": "Не удалось прочитать закладки."
+  },
+  "retrySelected": {
+    "message": "Проверить выбранные повторно"
+  },
+  "selectLink": {
+    "message": "Выбрать ссылку для повторной проверки: $1"
+  },
+  "selectVisible": {
+    "message": "Выбрать ссылки на этой странице, которые можно проверить повторно"
+  },
+  "sourceColumn": {
+    "message": "Источник"
+  },
+  "locateLink": {
+    "message": "Показать на исходной странице"
+  },
+  "locateUnavailable": {
+    "message": "Не удалось подсветить ссылку. Откройте исходную страницу и повторите проверку."
+  },
+  "networkDisclosure": {
+    "message": "При проверке ссылки расширение отправляет запрос на сайт. Сайт может увидеть ваш IP-адрес и другие сетевые данные."
+  },
+  "reasonUnsafeUrl": {
+    "message": "Адрес пропущен, поскольку может содержать конфиденциальные данные."
+  },
+  "reasonDns": {
+    "message": "Не удалось подтвердить, что имя хоста относится к публичному адресу."
+  },
+  "clearReports": {
+    "message": "Удалить сохранённые отчёты"
+  },
+  "reportsCleared": {
+    "message": "Сохранённые отчёты удалены."
+  },
+  "clearReportsConfirm": {
+    "message": "Удалить все сохранённые отчёты и их результаты?"
+  },
+  "http400": {
+    "message": "Сайт не смог обработать запрос."
+  },
+  "http405": {
+    "message": "Сайт не разрешает этот метод запроса."
+  },
+  "http408": {
+    "message": "Сервер не дождался запроса."
+  },
+  "http451": {
+    "message": "Страница недоступна по юридическим причинам."
+  },
+  "http502": {
+    "message": "Шлюз получил некорректный ответ от другого сервера."
+  },
+  "http503": {
+    "message": "Сервис временно недоступен."
+  },
+  "http504": {
+    "message": "Шлюз не дождался ответа от другого сервера."
+  },
+  "consentTitle": {
+    "message": "Разрешить запросы по ссылкам"
+  },
+  "consentDetail": {
+    "message": "Firefox запрашивает согласие на отправку ссылок со страницы или из закладок на соответствующие сайты."
+  }
+}

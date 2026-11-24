@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "檢查網頁和書籤中的連結、查看 HTTP 狀態，並將報告匯出為 CSV。"
+  },
+  "localeName": {
+    "message": "繁體中文"
+  },
+  "reportTitle": {
+    "message": "連結檢查"
+  },
+  "reportDocumentTitle": {
+    "message": "連結檢查 · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "language": {
+    "message": "語言"
+  },
+  "theme": {
+    "message": "外觀"
+  },
+  "system": {
+    "message": "跟隨系統"
+  },
+  "light": {
+    "message": "淺色"
+  },
+  "dark": {
+    "message": "深色"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "allowLoopback": {
+    "message": "允許檢查本機測試連結"
+  },
+  "allowLoopbackDetail": {
+    "message": "在瀏覽器中授權後，即可檢查 localhost、127.0.0.1 和 [::1]。日常檢查時請關閉此選項。"
+  },
+  "currentPage": {
+    "message": "目前頁面"
+  },
+  "sourcePage": {
+    "message": "來源頁面"
+  },
+  "scanCurrentPage": {
+    "message": "檢查目前頁面"
+  },
+  "scan": {
+    "message": "檢查"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "openReport": {
+    "message": "開啟最新報告"
+  },
+  "sourceUnavailable": {
+    "message": "切換到網站分頁以檢查其中的連結。"
+  },
+  "captureError": {
+    "message": "無法讀取此頁面。請開啟一般的 HTTP 或 HTTPS 頁面並重試。"
+  },
+  "storageError": {
+    "message": "無法儲存或載入報告。請重新載入分頁或開始新的檢查。"
+  },
+  "settingsError": {
+    "message": "無法儲存設定。"
+  },
+  "openError": {
+    "message": "無法開啟報告分頁。請重試。"
+  },
+  "noReportTitle": {
+    "message": "尚無報告"
+  },
+  "noReportDetail": {
+    "message": "開啟網站，並從擴充功能選單選擇「檢查目前頁面」。"
+  },
+  "reportUnavailable": {
+    "message": "此已儲存的報告已無法使用。"
+  },
+  "loading": {
+    "message": "正在載入…"
+  },
+  "capturing": {
+    "message": "正在讀取連結…"
+  },
+  "statusOverview": {
+    "message": "檢查摘要"
+  },
+  "totalLinks": {
+    "message": "連結總數"
+  },
+  "working": {
+    "message": "正常"
+  },
+  "missing": {
+    "message": "找不到"
+  },
+  "redirect": {
+    "message": "重新導向"
+  },
+  "uncertain": {
+    "message": "不確定"
+  },
+  "notChecked": {
+    "message": "未檢查"
+  },
+  "progress": {
+    "message": "檢查進度"
+  },
+  "progressCount": {
+    "message": "已處理 $1 項，共 $2 項"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "準備好檢查"
+  },
+  "phaseRunning": {
+    "message": "正在檢查連結"
+  },
+  "phaseFinished": {
+    "message": "檢查完成"
+  },
+  "phaseStopped": {
+    "message": "檢查已停止"
+  },
+  "phaseInterrupted": {
+    "message": "檢查已中斷"
+  },
+  "phaseDuplicate": {
+    "message": "另一個分頁正在處理此報告，完成後會更新結果。"
+  },
+  "listTitle": {
+    "message": "連結檢查結果"
+  },
+  "filter": {
+    "message": "篩選結果"
+  },
+  "allLinks": {
+    "message": "所有連結"
+  },
+  "shownCount": {
+    "message": "顯示 $1 項，共 $2 項"
+  },
+  "urlColumn": {
+    "message": "連結網址"
+  },
+  "statusColumn": {
+    "message": "結果"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "詳細資訊"
+  },
+  "categoryColumn": {
+    "message": "類別"
+  },
+  "errorColumn": {
+    "message": "錯誤"
+  },
+  "redirectColumn": {
+    "message": "重新導向網址"
+  },
+  "export": {
+    "message": "匯出 CSV"
+  },
+  "emptyLinks": {
+    "message": "此頁面找不到 HTTP 或 HTTPS 連結。"
+  },
+  "emptyFilter": {
+    "message": "沒有符合篩選條件的連結。"
+  },
+  "permissionTitle": {
+    "message": "需要網站存取權"
+  },
+  "permissionDetail": {
+    "message": "允許存取清單中的 $1 部主機，以檢查其連結。未授權的連結仍會標記為未檢查。"
+  },
+  "permissionHosts": {
+    "message": "查看主機清單"
+  },
+  "grantAccess": {
+    "message": "允許存取"
+  },
+  "permissionDenied": {
+    "message": "存取已遭拒絕。相關連結仍標記為未檢查。"
+  },
+  "permissionError": {
+    "message": "瀏覽器無法要求存取權。請檢查擴充功能的網站存取設定。"
+  },
+  "captureLimited": {
+    "message": "頁面超過擷取上限。報告中可能缺少部分連結。"
+  },
+  "scanLimited": {
+    "message": "找到 $1 個不重複的連結。檢查上限：$2。"
+  },
+  "reasonPermission": {
+    "message": "網站未授予存取權。"
+  },
+  "reasonPrivateHost": {
+    "message": "略過本機或私人位址。"
+  },
+  "reasonTimeout": {
+    "message": "要求逾時。"
+  },
+  "reasonNetwork": {
+    "message": "瀏覽器無法連線至此連結。"
+  },
+  "reasonHttpError": {
+    "message": "未預期的 HTTP 回應（$1）。"
+  },
+  "reasonRedirectHidden": {
+    "message": "瀏覽器未提供重新導向目的地。"
+  },
+  "reasonStopped": {
+    "message": "檢查已停止。"
+  },
+  "reasonInterrupted": {
+    "message": "檢查分頁已關閉或重新載入。"
+  },
+  "reasonPending": {
+    "message": "等待檢查。"
+  },
+  "interruptedHint": {
+    "message": "可查看已儲存的結果。選擇「檢查」即可開始新的檢查。"
+  },
+  "previousPage": {
+    "message": "上一頁結果"
+  },
+  "nextPage": {
+    "message": "下一頁結果"
+  },
+  "resultPages": {
+    "message": "第 $1 頁，共 $2 頁"
+  },
+  "redirectTo": {
+    "message": "重新導向至"
+  },
+  "requestingAccess": {
+    "message": "正在等待瀏覽器…"
+  },
+  "noValue": {
+    "message": "無法使用"
+  },
+  "http401": {
+    "message": "瀏覽此頁面需要登入。"
+  },
+  "http403": {
+    "message": "網站拒絕存取。"
+  },
+  "http404": {
+    "message": "找不到頁面。"
+  },
+  "http410": {
+    "message": "頁面已移除。"
+  },
+  "http429": {
+    "message": "網站正在限制要求頻率。"
+  },
+  "httpServerError": {
+    "message": "伺服器傳回錯誤（$1）。"
+  },
+  "scanBookmarks": {
+    "message": "檢查書籤"
+  },
+  "bookmarksTitle": {
+    "message": "書籤"
+  },
+  "bookmarksDenied": {
+    "message": "書籤存取要求已遭拒絕。"
+  },
+  "bookmarksError": {
+    "message": "無法讀取書籤。"
+  },
+  "retrySelected": {
+    "message": "重新檢查選取項目"
+  },
+  "selectLink": {
+    "message": "選取要重新檢查的連結：$1"
+  },
+  "selectVisible": {
+    "message": "選取此頁可重新檢查的連結"
+  },
+  "sourceColumn": {
+    "message": "來源"
+  },
+  "locateLink": {
+    "message": "在來源頁面顯示"
+  },
+  "locateUnavailable": {
+    "message": "無法醒目提示原始連結。請重新開啟來源頁面並再次檢查。"
+  },
+  "networkDisclosure": {
+    "message": "檢查連結會向對應的網站傳送要求。該網站可以看到你的 IP 位址和其他網路資訊。"
+  },
+  "reasonUnsafeUrl": {
+    "message": "此位址可能含有敏感資訊，已略過。"
+  },
+  "reasonDns": {
+    "message": "無法驗證主機名稱是否對應至公開位址。"
+  },
+  "clearReports": {
+    "message": "清除已儲存的報告"
+  },
+  "reportsCleared": {
+    "message": "已清除儲存的報告。"
+  },
+  "clearReportsConfirm": {
+    "message": "要清除所有已儲存的報告及結果嗎？"
+  },
+  "http400": {
+    "message": "網站無法理解此要求。"
+  },
+  "http405": {
+    "message": "網站不允許此要求方法。"
+  },
+  "http408": {
+    "message": "伺服器等候要求時逾時。"
+  },
+  "http451": {
+    "message": "基於法律原因，此頁面無法使用。"
+  },
+  "http502": {
+    "message": "閘道從其他伺服器收到無效回應。"
+  },
+  "http503": {
+    "message": "服務暫時無法使用。"
+  },
+  "http504": {
+    "message": "閘道未及時收到回應。"
+  },
+  "consentTitle": {
+    "message": "允許傳送連結檢查要求"
+  },
+  "consentDetail": {
+    "message": "Firefox 會徵求您的同意，才能將網頁連結或書籤網址傳送至對應的網站。"
+  }
+}

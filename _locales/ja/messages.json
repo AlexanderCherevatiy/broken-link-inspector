@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "ページとブックマークのリンクを確認し、HTTP ステータスを調べて、結果を CSV に書き出せます。"
+  },
+  "localeName": {
+    "message": "日本語"
+  },
+  "reportTitle": {
+    "message": "リンク検査"
+  },
+  "reportDocumentTitle": {
+    "message": "リンク検査 · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "language": {
+    "message": "言語"
+  },
+  "theme": {
+    "message": "外観"
+  },
+  "system": {
+    "message": "システムに従う"
+  },
+  "light": {
+    "message": "ライト"
+  },
+  "dark": {
+    "message": "ダーク"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "allowLoopback": {
+    "message": "ローカルテストリンクを許可"
+  },
+  "allowLoopbackDetail": {
+    "message": "ブラウザーでアクセスを許可すると、localhost、127.0.0.1、[::1] を確認できます。通常の検査ではオフにしておいてください。"
+  },
+  "currentPage": {
+    "message": "現在のページ"
+  },
+  "sourcePage": {
+    "message": "リンク元ページ"
+  },
+  "scanCurrentPage": {
+    "message": "現在のページを検査"
+  },
+  "scan": {
+    "message": "検査"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "openReport": {
+    "message": "最新のレポートを開く"
+  },
+  "sourceUnavailable": {
+    "message": "ウェブサイトのタブに切り替えてリンクを検査してください。"
+  },
+  "captureError": {
+    "message": "ページを読み取れませんでした。通常の HTTP または HTTPS ページを開いてもう一度お試しください。"
+  },
+  "storageError": {
+    "message": "レポートを保存または読み込みできませんでした。このタブを再読み込みするか、検査をやり直してください。"
+  },
+  "settingsError": {
+    "message": "設定を保存できませんでした。"
+  },
+  "openError": {
+    "message": "レポートのタブを開けませんでした。もう一度お試しください。"
+  },
+  "noReportTitle": {
+    "message": "レポートはまだありません"
+  },
+  "noReportDetail": {
+    "message": "ウェブサイトを開き、拡張機能のメニューから「現在のページを検査」を選択してください。"
+  },
+  "reportUnavailable": {
+    "message": "保存済みのレポートは利用できなくなりました。"
+  },
+  "loading": {
+    "message": "読み込み中…"
+  },
+  "capturing": {
+    "message": "リンクを読み取り中…"
+  },
+  "statusOverview": {
+    "message": "検査の概要"
+  },
+  "totalLinks": {
+    "message": "リンク総数"
+  },
+  "working": {
+    "message": "正常"
+  },
+  "missing": {
+    "message": "見つからない"
+  },
+  "redirect": {
+    "message": "リダイレクト"
+  },
+  "uncertain": {
+    "message": "不明"
+  },
+  "notChecked": {
+    "message": "未確認"
+  },
+  "progress": {
+    "message": "検査の進行状況"
+  },
+  "progressCount": {
+    "message": "$2 件中 $1 件を処理済み"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "検査の準備完了"
+  },
+  "phaseRunning": {
+    "message": "リンクを検査中"
+  },
+  "phaseFinished": {
+    "message": "検査完了"
+  },
+  "phaseStopped": {
+    "message": "検査停止"
+  },
+  "phaseInterrupted": {
+    "message": "検査が中断されました"
+  },
+  "phaseDuplicate": {
+    "message": "別のタブで検査中です。完了すると結果が更新されます。"
+  },
+  "listTitle": {
+    "message": "リンクの検査結果"
+  },
+  "filter": {
+    "message": "結果の絞り込み"
+  },
+  "allLinks": {
+    "message": "すべてのリンク"
+  },
+  "shownCount": {
+    "message": "$2 件中 $1 件を表示"
+  },
+  "urlColumn": {
+    "message": "リンク URL"
+  },
+  "statusColumn": {
+    "message": "結果"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "詳細"
+  },
+  "categoryColumn": {
+    "message": "分類"
+  },
+  "errorColumn": {
+    "message": "エラー"
+  },
+  "redirectColumn": {
+    "message": "リダイレクト先 URL"
+  },
+  "export": {
+    "message": "CSV に書き出す"
+  },
+  "emptyLinks": {
+    "message": "このページには HTTP または HTTPS リンクがありませんでした。"
+  },
+  "emptyFilter": {
+    "message": "この条件に一致するリンクはありません。"
+  },
+  "permissionTitle": {
+    "message": "サイトへのアクセスが必要です"
+  },
+  "permissionDetail": {
+    "message": "リンクを検査するには、一覧のホスト（$1 件）へのアクセスを許可してください。許可されないリンクは未確認のままになります。"
+  },
+  "permissionHosts": {
+    "message": "ホスト一覧を表示"
+  },
+  "grantAccess": {
+    "message": "アクセスを許可"
+  },
+  "permissionDenied": {
+    "message": "アクセスが拒否されました。対象のリンクは未確認のままです。"
+  },
+  "permissionError": {
+    "message": "ブラウザーがアクセス権を要求できませんでした。拡張機能のサイトアクセス設定を確認してください。"
+  },
+  "captureLimited": {
+    "message": "ページがリンク取得の上限を超えました。このレポートに含まれないリンクがある可能性があります。"
+  },
+  "scanLimited": {
+    "message": "重複を除いたリンク数：$1 件。検査の上限：$2 件。"
+  },
+  "reasonPermission": {
+    "message": "サイトへのアクセスが許可されていません。"
+  },
+  "reasonPrivateHost": {
+    "message": "ローカルまたはプライベートのアドレスをスキップしました。"
+  },
+  "reasonTimeout": {
+    "message": "リクエストがタイムアウトしました。"
+  },
+  "reasonNetwork": {
+    "message": "ブラウザーがリンク先に接続できませんでした。"
+  },
+  "reasonHttpError": {
+    "message": "予期しない HTTP 応答（$1）。"
+  },
+  "reasonRedirectHidden": {
+    "message": "ブラウザーがリダイレクト先を表示しませんでした。"
+  },
+  "reasonStopped": {
+    "message": "検査が停止されました。"
+  },
+  "reasonInterrupted": {
+    "message": "検査タブが閉じられたか、再読み込みされました。"
+  },
+  "reasonPending": {
+    "message": "検査待ちです。"
+  },
+  "interruptedHint": {
+    "message": "保存した結果を表示できます。やり直すには「検査」を選択してください。"
+  },
+  "previousPage": {
+    "message": "前の結果ページ"
+  },
+  "nextPage": {
+    "message": "次の結果ページ"
+  },
+  "resultPages": {
+    "message": "$2 ページ中 $1 ページ"
+  },
+  "redirectTo": {
+    "message": "リダイレクト先"
+  },
+  "requestingAccess": {
+    "message": "ブラウザーの応答を待っています…"
+  },
+  "noValue": {
+    "message": "利用不可"
+  },
+  "http401": {
+    "message": "このページにはログインが必要です。"
+  },
+  "http403": {
+    "message": "サイトがアクセスを拒否しました。"
+  },
+  "http404": {
+    "message": "ページが見つかりませんでした。"
+  },
+  "http410": {
+    "message": "ページは削除されています。"
+  },
+  "http429": {
+    "message": "サイトがリクエストの頻度を制限しています。"
+  },
+  "httpServerError": {
+    "message": "サーバーがエラーを返しました（$1）。"
+  },
+  "scanBookmarks": {
+    "message": "ブックマークを検査"
+  },
+  "bookmarksTitle": {
+    "message": "ブックマーク"
+  },
+  "bookmarksDenied": {
+    "message": "ブックマークへのアクセスが拒否されました。"
+  },
+  "bookmarksError": {
+    "message": "ブックマークを読み取れませんでした。"
+  },
+  "retrySelected": {
+    "message": "選択項目を再検査"
+  },
+  "selectLink": {
+    "message": "再検査するリンクを選択：$1"
+  },
+  "selectVisible": {
+    "message": "このページで再検査できるリンクを選択"
+  },
+  "sourceColumn": {
+    "message": "リンク元"
+  },
+  "locateLink": {
+    "message": "リンク元ページに表示"
+  },
+  "locateUnavailable": {
+    "message": "元のリンクを強調表示できませんでした。リンク元ページを開き直し、再度検査してください。"
+  },
+  "networkDisclosure": {
+    "message": "リンクを検査すると、対象サイトにリクエストが送信されます。サイトは IP アドレスなどのネットワーク情報を確認できます。"
+  },
+  "reasonUnsafeUrl": {
+    "message": "アドレスに機密情報が含まれる可能性があるため、スキップしました。"
+  },
+  "reasonDns": {
+    "message": "ホスト名が公開アドレスを指していることを確認できませんでした。"
+  },
+  "clearReports": {
+    "message": "保存したレポートを消去"
+  },
+  "reportsCleared": {
+    "message": "保存したレポートを消去しました。"
+  },
+  "clearReportsConfirm": {
+    "message": "保存したレポートと結果をすべて消去しますか？"
+  },
+  "http400": {
+    "message": "サイトがリクエストを解釈できませんでした。"
+  },
+  "http405": {
+    "message": "サイトがこのリクエスト方式を許可していません。"
+  },
+  "http408": {
+    "message": "サーバーがリクエストの待機中にタイムアウトしました。"
+  },
+  "http451": {
+    "message": "法的な理由でこのページを利用できません。"
+  },
+  "http502": {
+    "message": "ゲートウェイが別のサーバーから無効な応答を受け取りました。"
+  },
+  "http503": {
+    "message": "サービスは一時的に利用できません。"
+  },
+  "http504": {
+    "message": "ゲートウェイが制限時間内に応答を受け取れませんでした。"
+  },
+  "consentTitle": {
+    "message": "リンクの検査リクエストを許可"
+  },
+  "consentDetail": {
+    "message": "Firefox はページのリンクやブックマークの URL を各サイトに送信するために同意を求めます。"
+  }
+}

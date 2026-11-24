@@ -1,0 +1,347 @@
+{
+  "extensionName": {
+    "message": "Broken Link Inspector"
+  },
+  "extensionDescription": {
+    "message": "Vérifiez les liens des pages et des marque-pages, consultez les codes HTTP et exportez les rapports en CSV."
+  },
+  "localeName": {
+    "message": "Français"
+  },
+  "reportTitle": {
+    "message": "Vérification des liens"
+  },
+  "reportDocumentTitle": {
+    "message": "Vérification des liens · Broken Link Inspector"
+  },
+  "settings": {
+    "message": "Paramètres"
+  },
+  "language": {
+    "message": "Langue"
+  },
+  "theme": {
+    "message": "Apparence"
+  },
+  "system": {
+    "message": "Système"
+  },
+  "light": {
+    "message": "Clair"
+  },
+  "dark": {
+    "message": "Sombre"
+  },
+  "close": {
+    "message": "Fermer"
+  },
+  "allowLoopback": {
+    "message": "Autoriser les liens de test locaux"
+  },
+  "allowLoopbackDetail": {
+    "message": "Permet de vérifier localhost, 127.0.0.1 et [::1] après autorisation du navigateur. Laissez cette option désactivée pour les vérifications courantes."
+  },
+  "currentPage": {
+    "message": "Page actuelle"
+  },
+  "sourcePage": {
+    "message": "Page source"
+  },
+  "scanCurrentPage": {
+    "message": "Vérifier la page actuelle"
+  },
+  "scan": {
+    "message": "Vérifier"
+  },
+  "stop": {
+    "message": "Arrêter"
+  },
+  "openReport": {
+    "message": "Ouvrir le dernier rapport"
+  },
+  "sourceUnavailable": {
+    "message": "Ouvrez l’onglet d’un site web pour vérifier ses liens."
+  },
+  "captureError": {
+    "message": "Impossible de lire cette page. Ouvrez une page HTTP ou HTTPS ordinaire et réessayez."
+  },
+  "storageError": {
+    "message": "Impossible d’enregistrer ou de charger le rapport. Rechargez cet onglet ou lancez une nouvelle vérification."
+  },
+  "settingsError": {
+    "message": "Impossible d’enregistrer vos paramètres."
+  },
+  "openError": {
+    "message": "Impossible d’ouvrir l’onglet du rapport. Réessayez."
+  },
+  "noReportTitle": {
+    "message": "Aucun rapport pour le moment"
+  },
+  "noReportDetail": {
+    "message": "Ouvrez un site web et sélectionnez Vérifier la page actuelle dans le menu de l’extension."
+  },
+  "reportUnavailable": {
+    "message": "Ce rapport enregistré n’est plus disponible."
+  },
+  "loading": {
+    "message": "Chargement…"
+  },
+  "capturing": {
+    "message": "Lecture des liens…"
+  },
+  "statusOverview": {
+    "message": "Résumé de la vérification"
+  },
+  "totalLinks": {
+    "message": "Total des liens"
+  },
+  "working": {
+    "message": "Fonctionnel"
+  },
+  "missing": {
+    "message": "Introuvable"
+  },
+  "redirect": {
+    "message": "Redirection"
+  },
+  "uncertain": {
+    "message": "Incertain"
+  },
+  "notChecked": {
+    "message": "Non vérifié"
+  },
+  "progress": {
+    "message": "Progression de la vérification"
+  },
+  "progressCount": {
+    "message": "$1 sur $2 traités"
+  },
+  "progressPercent": {
+    "message": "$1%"
+  },
+  "phaseReady": {
+    "message": "Prêt à vérifier"
+  },
+  "phaseRunning": {
+    "message": "Vérification des liens"
+  },
+  "phaseFinished": {
+    "message": "Vérification terminée"
+  },
+  "phaseStopped": {
+    "message": "Vérification arrêtée"
+  },
+  "phaseInterrupted": {
+    "message": "Vérification interrompue"
+  },
+  "phaseDuplicate": {
+    "message": "Ce rapport est en cours de traitement dans un autre onglet. Les résultats seront actualisés à la fin."
+  },
+  "listTitle": {
+    "message": "Résultats des liens"
+  },
+  "filter": {
+    "message": "Filtrer les résultats"
+  },
+  "allLinks": {
+    "message": "Tous les liens"
+  },
+  "shownCount": {
+    "message": "$1 sur $2 affichés"
+  },
+  "urlColumn": {
+    "message": "URL du lien"
+  },
+  "statusColumn": {
+    "message": "Résultat"
+  },
+  "httpColumn": {
+    "message": "HTTP"
+  },
+  "detailsColumn": {
+    "message": "Détails"
+  },
+  "categoryColumn": {
+    "message": "Catégorie"
+  },
+  "errorColumn": {
+    "message": "Erreur"
+  },
+  "redirectColumn": {
+    "message": "URL de redirection"
+  },
+  "export": {
+    "message": "Exporter en CSV"
+  },
+  "emptyLinks": {
+    "message": "Aucun lien HTTP ou HTTPS n’a été trouvé sur cette page."
+  },
+  "emptyFilter": {
+    "message": "Aucun lien ne correspond à ce filtre."
+  },
+  "permissionTitle": {
+    "message": "Accès aux sites nécessaire"
+  },
+  "permissionDetail": {
+    "message": "Autorisez l’accès aux hôtes indiqués ($1) pour vérifier leurs liens. Sans accès, ils restent non vérifiés."
+  },
+  "permissionHosts": {
+    "message": "Afficher la liste des hôtes"
+  },
+  "grantAccess": {
+    "message": "Autoriser l’accès"
+  },
+  "permissionDenied": {
+    "message": "L’accès a été refusé. Les liens concernés restent marqués comme non vérifiés."
+  },
+  "permissionError": {
+    "message": "Le navigateur n’a pas pu demander l’accès. Consultez les paramètres d’accès aux sites de l’extension."
+  },
+  "captureLimited": {
+    "message": "La page dépasse la limite d’extraction. Certains liens peuvent manquer dans ce rapport."
+  },
+  "scanLimited": {
+    "message": "Liens uniques trouvés : $1. Limite de vérification : $2."
+  },
+  "reasonPermission": {
+    "message": "L’accès au site n’a pas été accordé."
+  },
+  "reasonPrivateHost": {
+    "message": "Adresse locale ou privée ignorée."
+  },
+  "reasonTimeout": {
+    "message": "Le délai d’attente de la requête est dépassé."
+  },
+  "reasonNetwork": {
+    "message": "Le navigateur n’a pas pu atteindre le lien."
+  },
+  "reasonHttpError": {
+    "message": "Réponse HTTP inattendue ($1)."
+  },
+  "reasonRedirectHidden": {
+    "message": "Le navigateur n’a pas indiqué la destination de la redirection."
+  },
+  "reasonStopped": {
+    "message": "La vérification a été arrêtée."
+  },
+  "reasonInterrupted": {
+    "message": "L’onglet de vérification a été fermé ou rechargé."
+  },
+  "reasonPending": {
+    "message": "En attente de vérification."
+  },
+  "interruptedHint": {
+    "message": "Les résultats enregistrés sont disponibles. Sélectionnez Vérifier pour lancer une nouvelle vérification."
+  },
+  "previousPage": {
+    "message": "Page de résultats précédente"
+  },
+  "nextPage": {
+    "message": "Page de résultats suivante"
+  },
+  "resultPages": {
+    "message": "Page $1 sur $2"
+  },
+  "redirectTo": {
+    "message": "Redirige vers"
+  },
+  "requestingAccess": {
+    "message": "En attente du navigateur…"
+  },
+  "noValue": {
+    "message": "Indisponible"
+  },
+  "http401": {
+    "message": "Cette page nécessite une connexion."
+  },
+  "http403": {
+    "message": "Le site a refusé l’accès."
+  },
+  "http404": {
+    "message": "La page est introuvable."
+  },
+  "http410": {
+    "message": "La page a été supprimée."
+  },
+  "http429": {
+    "message": "Le site limite la fréquence des requêtes."
+  },
+  "httpServerError": {
+    "message": "Le serveur a renvoyé une erreur ($1)."
+  },
+  "scanBookmarks": {
+    "message": "Vérifier les marque-pages"
+  },
+  "bookmarksTitle": {
+    "message": "Marque-pages"
+  },
+  "bookmarksDenied": {
+    "message": "L’accès aux marque-pages a été refusé."
+  },
+  "bookmarksError": {
+    "message": "Impossible de lire les marque-pages."
+  },
+  "retrySelected": {
+    "message": "Revérifier la sélection"
+  },
+  "selectLink": {
+    "message": "Sélectionner le lien à revérifier : $1"
+  },
+  "selectVisible": {
+    "message": "Sélectionner les liens de cette page qui peuvent être revérifiés"
+  },
+  "sourceColumn": {
+    "message": "Source"
+  },
+  "locateLink": {
+    "message": "Afficher sur la page source"
+  },
+  "locateUnavailable": {
+    "message": "Impossible de mettre le lien d’origine en évidence. Rouvrez la page source et vérifiez-la à nouveau."
+  },
+  "networkDisclosure": {
+    "message": "Vérifier un lien envoie une requête à son site. Celui-ci peut voir votre adresse IP et d’autres données réseau."
+  },
+  "reasonUnsafeUrl": {
+    "message": "Adresse ignorée, car elle peut contenir des informations sensibles."
+  },
+  "reasonDns": {
+    "message": "Impossible de confirmer que le nom d’hôte est public."
+  },
+  "clearReports": {
+    "message": "Effacer les rapports enregistrés"
+  },
+  "reportsCleared": {
+    "message": "Rapports enregistrés effacés."
+  },
+  "clearReportsConfirm": {
+    "message": "Effacer tous les rapports enregistrés et leurs résultats ?"
+  },
+  "http400": {
+    "message": "Le site n’a pas compris la requête."
+  },
+  "http405": {
+    "message": "Le site n’autorise pas cette méthode de requête."
+  },
+  "http408": {
+    "message": "Le délai d’attente du serveur pour la requête est dépassé."
+  },
+  "http451": {
+    "message": "La page est indisponible pour des raisons juridiques."
+  },
+  "http502": {
+    "message": "Une passerelle a reçu une réponse invalide d’un autre serveur."
+  },
+  "http503": {
+    "message": "Le service est temporairement indisponible."
+  },
+  "http504": {
+    "message": "Une passerelle n’a pas reçu de réponse à temps."
+  },
+  "consentTitle": {
+    "message": "Autoriser les requêtes de vérification"
+  },
+  "consentDetail": {
+    "message": "Firefox demande votre consentement pour envoyer les liens des pages ou les URL des marque-pages aux sites concernés."
+  }
+}
